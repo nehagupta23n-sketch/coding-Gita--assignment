@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>TechNova Assignments</title></head>
+<body>
+
+<!-- Q1 -->
+<p><b>TechNova Institute</b> provides <i>practical training</i> for all students.</p>
+
+<!-- Q2 -->
+<p><strong>Horizon University</strong> is committed to <em>excellence</em>.</p>
+
+<!-- Q3 -->
+<p><mark>Full Stack Bootcamp 2026</mark> - <small>Registration closes soon</small></p>
+
+<!-- Q4 -->
+<p>Old Fee: <del>₹12,000</del> New Fee: <ins>₹9,500</ins></p>
+
+<!-- Q5 -->
+<p>Water formula is H<sub>2</sub>O</p>
+<p>He secured 3<sup>rd</sup> position.</p>
+
+<!-- Q6 -->
+<blockquote cite="https://technova.edu/lectures">Consistent practice is the only shortcut to mastering programming.</blockquote>
+
+<!-- Q7 -->
+<p>As our mentor says <q cite="https://horizonuni.ac.in/vision">Learning never stops for a true developer.</q></p>
+
+<!-- Q8 -->
+<p>Welcome to <abbr title="Horizon University Institute">HUI</abbr></p>
+
+<!-- Q9 -->
+<address>
+TechNova Training Center<br>
+45 Innovation Park, Sector 12<br>
+Electronic City, Bengaluru<br>
+Karnataka 560100
+</address>
+
+<!-- Q10 -->
+<p>Join our workshop <cite>Cloud Computing Essentials</cite>.</p>
+
+<!-- Q11 -->
+<p>Learn <bdo dir="rtl">برمجة</bdo> with us.</p>
+
+<!-- Q12 -->
+<blockquote>The project-based approach helped me build real applications within two months.</blockquote>
+<cite>— Student Review, Batch 2025</cite>
+
+<!-- Q13 -->
+<blockquote>Code every day, even if it is only for thirty minutes.</blockquote>
+<cite>Mentor Advice – TechNova Handbook</cite>
+
+<!-- Q14 -->
+<p><del>Basic Web Design</del> <ins>Modern Frontend Development</ins></p>
+
+<!-- Q15 -->
+<p><b>TechNova Institute</b> offers <mark>live mentor support</mark> and <em>guaranteed</em> placement assistance.</p>
+
+<!-- Q16 -->
+<p><q cite="https://technova.edu/mission">Build skills that industries actually need.</q></p>
+<cite>TechNova Vision Document</cite>
+
+<!-- Q17 -->
+<blockquote cite="#">Machine learning is transforming every major industry today.</blockquote>
+<cite>AI Applications in Modern Industry</cite>
+
+<!-- Q18 -->
+<p><abbr title="Horizon University Institute">HUI</abbr></p>
+<blockquote>We provide industry-oriented training for future developers.
+<cite>Academic Brochure 2026</cite>
+</blockquote>
+
+<!-- Q19 -->
+<address>TechNova Training Center, 45 Innovation Park, Electronic City, Bengaluru - 560100</address>
+<p><q cite="https://technova.edu/facilities">Our labs are open for practice till 10 PM every day.</q></p>
+
+<!-- Q20 -->
+<p>Join <abbr title="Horizon University Institute">HUI</abbr> to learn <bdo dir="rtl">कोडिंग</bdo></p>
+
+<!-- Q21 -->
+<p><del>₹12,000</del> <ins>₹9,500</ins> <small>Early bird offer ends this month</small></p>
+
+<!-- Q22 -->
+<p><mark>Full Stack Bootcamp</mark> by <strong>TechNova Institute</strong> starts in <em>January</em>. <small>Last date: 31st Dec</small></p>
+
+<!-- Q23 -->
+<p>Read the book <cite>Clean Code</cite></p>
+<p>Watch the documentary <cite>The Social Dilemma</cite></p>
+
+<!-- Q24 -->
+<blockquote>Daily coding practice builds logic and confidence for interviews.</blockquote>
+<p>He said <q>Practice makes you perfect</q> during the session.</p>
+
+<!-- Q25 -->
+<p><abbr title="Horizon University Institute">HUI</abbr></p>
+<blockquote cite="https://technova.edu/about">TechNova focuses on skill-based learning. <cite>Academic Brochure 2026</cite></blockquote>
+<address>TechNova Training Center, Bengaluru</address>
+
+<!-- Q26 -->
+<p>Chemical formula CO<sub>2</sub></p>
+<p>Welcome to 5<sup>th</sup> <mark>coding fest</mark></p>
+
+<!-- Q27 -->
+<p>Old date: <del>10th Jan</del> <ins>25th Jan</ins> <small>Free orientation</small> - <em>mandatory</em> to attend.</p>
+
+<!-- Q28 -->
+<blockquote>I got my first internship after this course.</blockquote>
+<cite>Learner Feedback – TechNova 2025</cite>
+<address>TechNova Training Center, Electronic City, Bengaluru</address>
+
+<!-- Q29 -->
+<p>We provide <mark>multilingual programming support</mark> at <abbr title="Horizon University Institute">HUI</abbr>. Arabic word <bdo dir="rtl">برمجة</bdo> means coding.</p>
+
+<!-- Q30 - COMPREHENSIVE -->
+<p>
+<mark>TechNova Institute</mark> offers <strong>job-ready courses</strong> with <em>guaranteed</em> growth.
+Fee: <del>₹12000</del> <ins>₹9500</ins>.
+Our motto <q cite="https://technova.edu/mission">Learn daily and grow daily</q>
+from <cite>TechNova Handbook</cite>.
+We are part of <abbr title="Horizon University Institute">HUI</abbr>.
+Learn <bdo dir="rtl">कोडिंग</bdo> with us.
+</p>
+
+</body>
+</html>
