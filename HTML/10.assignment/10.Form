@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<html lang="en">
+<head><meta charset="UTF-8"><title>Forms Q1-Q42</title></head>
+<body>
+
+<!-- Q1 Basic Form Structure -->
+<h3>Q1 Basic Form</h3>
+<form action="/submit.php" method="post" autocomplete="on">
+  <label for="name1">Name:</label>
+  <input type="text" id="name1" name="name">
+  <button type="submit">Submit</button>
+</form>
+
+<!-- Q2 GET Method -->
+<h3>Q2 GET Form</h3>
+<form method="get" action="/search.php">
+  <input type="search" name="q" placeholder="Search">
+  <button type="submit">Search</button>
+</form>
+
+<!-- Q3 Without Validation -->
+<h3>Q3 novalidate</h3>
+<form method="post" action="/submit.php" novalidate>
+  <input type="text" name="user" required placeholder="Required but validation disabled">
+  <input type="email" name="email" required>
+  <button type="submit">Submit</button>
+</form>
+
+<!-- Q4 enctype default -->
+<h3>Q4 Default enctype</h3>
+<!-- application/x-www-form-urlencoded is default, data sent as key=value&key2=value2 -->
+<form method="post" action="/submit.php" enctype="application/x-www-form-urlencoded">
+  <input type="text" name="username">
+  <input type="email" name="email">
+  <button type="submit">Submit</button>
+</form>
+
+<!-- Q5 File Upload - MOST IMPORTANT -->
+<h3>Q5 File Upload</h3>
+<form method="post" action="/upload.php" enctype="multipart/form-data">
+  <label for="file1">Upload File:</label>
+  <input type="file" id="file1" name="myfile">
+  <button type="submit">Upload</button>
+</form>
+
+<!-- Q6 text/plain -->
+<h3>Q6 text/plain</h3>
+<form method="post" action="/submit.php" enctype="text/plain">
+  <input type="text" name="name1">
+  <input type="text" name="name2">
+  <button type="submit">Send Plain</button>
+</form>
+
+<!-- Q7 Name and Target -->
+<h3>Q7 name + target _blank</h3>
+<form name="userForm" target="_blank" action="/submit.php" method="post">
+  <input type="text" name="city">
+  <button type="submit">Submit in New Tab</button>
+</form>
+
+<!-- Q8 Label -->
+<h3>Q8 Proper Label</h3>
+<form><label for="email">Email:</label><input type="email" id="email" name="email"></form>
+
+<!-- Q9 Radio Group -->
+<h3>Q9 Radio Gender</h3>
+<form>
+  <input type="radio" id="male" name="gender" value="male" checked>
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+</form>
+
+<!-- Q10 Multiple Checkboxes -->
+<h3>Q10 Checkboxes Hobbies</h3>
+<form>
+  <input type="checkbox" id="cricket" name="hobby" value="cricket" checked><label for="cricket">Cricket</label>
+  <input type="checkbox" id="music" name="hobby" value="music"><label for="music">Music</label>
+  <input type="checkbox" id="coding" name="hobby" value="coding"><label for="coding">Coding</label>
+</form>
+
+<!-- Q11 Dropdown Single -->
+<h3>Q11 Select Car</h3>
+<select name="cars"><option value="tata">Tata</option><option value="maruti">Maruti</option><option value="bmw">BMW</option></select>
+
+<!-- Q12 Multi-select -->
+<h3>Q12 Multi Select</h3>
+<select name="langs" multiple size="3"><option>HTML</option><option>CSS</option><option>JS</option><option>Python</option></select>
+
+<!-- Q13 Optgroup -->
+<h3>Q13 Optgroup</h3>
+<select name="fruits">
+  <optgroup label="Citrus"><option>Orange</option><option>Lemon</option></optgroup>
+  <optgroup label="Berries"><option>Strawberry</option><option>Blueberry</option></optgroup>
+</select>
+
+<!-- Q14 Textarea -->
+<h3>Q14 Textarea</h3>
+<textarea name="message" rows="4" cols="50" placeholder="Your comment"></textarea>
+
+<!-- Q15 Button Types -->
+<h3>Q15 Button Types</h3>
+<form><button type="submit">Submit</button><button type="reset">Reset</button><button type="button">Click Me</button></form>
+
+<!-- Q16 Fieldset Legend -->
+<h3>Q16 Fieldset</h3>
+<form><fieldset><legend>Personal Information</legend><input type="text" name="name" placeholder="Name"><input type="email" name="email" placeholder="Email"></fieldset></form>
+
+<!-- Q17 Disabled Fieldset -->
+<h3>Q17 Disabled Fieldset</h3>
+<fieldset disabled><legend>Login (Disabled)</legend><input type="text" name="user" value="admin"><input type="password" name="pass" value="123"></fieldset>
+
+<!-- Q18 Datalist -->
+<h3>Q18 Datalist</h3>
+<input list="browsers" name="browser"><datalist id="browsers"><option value="Chrome"><option value="Firefox"><option value="Edge"></datalist>
+
+<!-- Q19 Password Constraints -->
+<h3>Q19 Password</h3>
+<label for="pwd">Password:</label><input type="password" id="pwd" name="pwd" required minlength="8">
+
+<!-- Q20 Email Multiple -->
+<h3>Q20 Email Multiple</h3>
+<input type="email" name="emails" multiple placeholder="Enter emails comma separated: a@b.com, c@d.com">
+
+<!-- Q21 Date Range -->
+<h3>Q21 Date 2023 only</h3>
+<input type="date" name="date" min="2023-01-01" max="2023-12-31">
+
+<!-- Q22 Number Input -->
+<h3>Q22 Number 1-10</h3>
+<input type="number" name="qty" min="1" max="10" step="1" value="1">
+
+<!-- Q23 Range Slider -->
+<h3>Q23 Volume</h3>
+<label for="vol">Volume:</label><input type="range" id="vol" name="vol" min="0" max="100" value="50">
+
+<!-- Q24 File Restrictions -->
+<h3>Q24 PDF DOCX only</h3>
+<form method="post" enctype="multipart/form-data"><input type="file" name="doc" accept=".pdf,.docx" required><button type="submit">Upload</button></form>
+
+<!-- Q25 Hidden Input -->
+<h3>Q25 Hidden</h3>
+<form><input type="hidden" name="token" value="abc123xyz"><input type="text" name="user"><button type="submit">Go</button></form>
+
+<!-- Q26 Color Picker -->
+<h3>Q26 Color</h3>
+<label>Favorite Color: <input type="color" name="favcolor" value="#ff0000"></label>
+
+<!-- Q27 Tel Pattern -->
+<h3>Q27 Telephone</h3>
+<input type="tel" name="phone" pattern="[0-9]{10}" placeholder="9876543210">
+
+<!-- Q28 URL Input -->
+<h3>Q28 URL</h3>
+<input type="url" name="website" required placeholder="https://example.com">
+
+<!-- Q29 Search Autofocus -->
+<h3>Q29 Search Autofocus</h3>
+<input type="search" name="search" autofocus placeholder="Search here...">
+
+<!-- Q30 Input Outside Form -->
+<h3>Q30 form attribute</h3>
+<form id="myForm" action="/submit.php" method="post"><input type="text" name="inside"><button type="submit">Submit</button></form>
+<input type="text" name="outside" form="myForm" placeholder="I am outside but part of myForm">
+
+<!-- Q31 formaction Override -->
+<h3>Q31 formaction</h3>
+<form action="/default.php" method="post"><input type="text" name="data" required><button type="submit">Default Action</button><button type="submit" formaction="/other.php">Other URL</button></form>
+
+<!-- Q32 formmethod Override -->
+<h3>Q32 formmethod</h3>
+<form action="/submit.php" method="post"><input type="text" name="q" required><button type="submit">POST</button><button type="submit" formmethod="get">GET</button></form>
+
+<!-- Q33 formnovalidate -->
+<h3>Q33 Save Draft</h3>
+<form action="/submit.php" method="post"><input type="text" name="name" required><input type="email" name="email" required><button type="submit">Submit</button><button type="submit" formnovalidate>Save as Draft</button></form>
+
+<!-- Q34 formtarget -->
+<h3>Q34 formtarget</h3>
+<form action="/submit.php" method="post"><input type="text" name="name" required><button type="submit">Submit Same Tab</button><button type="submit" formtarget="_blank">Preview in New Tab</button></form>
+
+<!-- Q35 Complete Login -->
+<h3>Q35 Login Form</h3>
+<form method="post" action="/login.php">
+  <label for="uname">Username:</label><input type="text" id="uname" name="username" required>
+  <label for="pass35">Password:</label><input type="password" id="pass35" name="password" required minlength="8">
+  <button type="submit">Login</button>
+</form>
+
+<!-- Q36 Registration with Fieldsets -->
+<h3>Q36 Registration</h3>
+<form method="post" action="/register.php">
+  <fieldset><legend>Personal Information</legend><label>Name: <input type="text" name="name" required></label><label>Email: <input type="email" name="email" required></label></fieldset>
+  <fieldset><legend>Preferences</legend><label><input type="checkbox" name="newsletter"> Subscribe Newsletter</label></fieldset>
+  <button type="submit">Register</button>
+</form>
+
+<!-- Q37 Contact Us -->
+<h3>Q37 Contact Us</h3>
+<form method="post" action="/contact.php"><input type="text" name="name" required placeholder="Name"><input type="email" name="email" required placeholder="Email"><textarea name="msg" rows="5" cols="40" required placeholder="Your message"></textarea><button type="submit">Send Message</button></form>
+
+<!-- Q38 Survey Feedback -->
+<h3>Q38 Feedback</h3>
+<form method="post">
+  <label>Satisfaction: <input type="range" name="sat" min="1" max="10" value="5"></label>
+  <p>Recommend? <input type="radio" id="yes" name="rec" value="yes"><label for="yes">Yes</label><input type="radio" id="no" name="rec" value="no"><label for="no">No</label></p>
+  <textarea name="comments" placeholder="Comments"></textarea><button type="submit">Submit Feedback</button>
+</form>
+
+<!-- Q39 File Upload Resume + Photo -->
+<h3>Q39 Resume + Photo</h3>
+<form method="post" action="/upload.php" enctype="multipart/form-data">
+  <label for="resume">Resume (PDF/DOCX):</label><input type="file" id="resume" name="resume" accept=".pdf,.docx" required>
+  <label for="photo">Photo (Image):</label><input type="file" id="photo" name="photo" accept="image/*">
+  <button type="submit">Upload</button>
+</form>
+
+<!-- Q40 Search GET -->
+<h3>Q40 Site Search GET</h3>
+<form method="get" action="/search.php"><input type="search" name="q" autofocus placeholder="Search site..."><button type="submit">Search</button></form>
+
+<!-- Q41 Advanced Job Application -->
+<h3>Q41 Job Application</h3>
+<form method="post" action="/job.php" enctype="multipart/form-data">
+  <fieldset><legend>Personal Details</legend>
+  <label>Name: <input type="text" name="name" required></label>
+  <label>Email: <input type="email" name="email" required></label>
+  <label>Phone: <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="9876543210"></label>
+  </fieldset>
+  <fieldset><legend>Experience</legend><textarea name="exp" rows="4" cols="50" placeholder="Your experience"></textarea></fieldset>
+  <label>Resume (PDF only): <input type="file" name="resume" accept=".pdf" required></label>
+  <p>Employment Type: <input type="radio" id="full" name="etype" value="full"><label for="full">Full-time</label><input type="radio" id="part" name="etype" value="part"><label for="part">Part-time</label></p>
+  <label><input type="checkbox" name="terms" required> I accept terms</label>
+  <button type="submit">Apply</button><button type="submit" formnovalidate>Save Draft</button>
+</form>
+
+<!-- Q42 All Overrides -->
+<h3>Q42 All Major Overrides</h3>
+<form id="advForm" action="/default.php" method="post" target="_self">
+  <input type="text" name="name" required placeholder="Name required">
+  <input type="email" name="email" required placeholder="Email required">
+  <button type="submit">Default - POST to /default.php self</button>
+  <button type="submit" formaction="/preview.php">Override action - /preview.php</button>
+  <button type="submit" formmethod="get">Override method - GET</button>
+  <button type="submit" formnovalidate>Override validation - no validate</button>
+  <button type="submit" formtarget="_blank">Override target - new tab</button>
+</form>
+
+</body>
+</html>
+
+
+
+    
+
+
+
+
+
+
+
+
