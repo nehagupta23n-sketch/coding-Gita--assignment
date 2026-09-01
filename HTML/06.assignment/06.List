@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- Q1 -->
+<ul style="list-style-type: disc;">
+<li>Python</li><li>Java</li><li>C++</li><li>JavaScript</li>
+</ul>
+
+<!-- Q2 -->
+<ul style="list-style-type: circle;">
+<li>HTML</li><li>CSS</li><li>JavaScript</li>
+</ul>
+
+<!-- Q3 -->
+<ul style="list-style-type: square;">
+<li>Communication</li><li>Teamwork</li><li>Leadership</li><li>Time Management</li>
+</ul>
+
+<!-- Q4 -->
+<ol type="1">
+<li>Select Idea</li><li>Make Design</li><li>Write Code</li><li>Test Project</li>
+</ol>
+
+<!-- Q5 -->
+<ol start="3">
+<li>Module 3 - CSS</li><li>Module 4 - JS</li><li>Module 5 - React</li><li>Module 6 - Node</li>
+</ol>
+
+<!-- Q6 -->
+<ol type="A">
+<li>Planning</li><li>Development</li><li>Deployment</li>
+</ol>
+
+<!-- Q7 -->
+<ol type="a">
+<li>Check Emails</li><li>Code Practice</li><li>Meeting</li><li>Review</li>
+</ol>
+
+<!-- Q8 -->
+<ol type="I">
+<li>Be on time</li><li>Complete work</li><li>Respect all</li>
+</ol>
+
+<!-- Q9 -->
+<ol type="i">
+<li>Introduction</li><li>Basics</li><li>Advanced</li><li>Conclusion</li>
+</ol>
+
+<!-- Q10 -->
+<ol reversed type="1">
+<li>Final Event</li><li>Seminar</li><li>Workshop</li><li>Opening</li>
+</ol>
+
+<!-- Q11 -->
+<ol reversed type="A">
+<li>Conclusion</li><li>Main Points</li><li>Introduction</li>
+</ol>
+
+<!-- Q12 -->
+<ol>
+<li>HTML</li>
+<li value="5">CSS</li>
+<li>JavaScript</li>
+<li>React</li>
+</ol>
+
+<!-- Q13 -->
+<dl>
+<dt>HTML</dt><dd>Markup language for web pages</dd>
+<dt>CSS</dt><dd>Used for styling</dd>
+<dt>JS</dt><dd>Used for logic</dd>
+</dl>
+
+<!-- Q14 -->
+<dl>
+<dt>SkillForge</dt><dd>An online coding academy</dd>
+<dt>Bootcamp</dt><dd>Intensive training program</dd>
+</dl>
+
+<!-- Q15 -->
+<ul style="list-style-type: disc;">
+<li>Frontend<ul style="list-style-type: circle;"><li>HTML</li><li>CSS</li></ul></li>
+<li>Backend<ul style="list-style-type: circle;"><li>Node</li><li>Python</li></ul></li>
+</ul>
+
+<!-- Q16 -->
+<ul>
+<li>Web Dev<ol><li>HTML</li><li>CSS</li></ol></li>
+<li>Data Science<ol><li>Python</li><li>SQL</li></ol></li>
+</ul>
+
+<!-- Q17 -->
+<ol>
+<li>Step 1</li>
+<li>Step 2<ul><li>Sub-step A</li><li>Sub-step B</li></ul></li>
+<li>Step 3</li>
+</ol>
+
+<!-- Q18 -->
+<ul style="list-style-type: square;">
+<li>Languages<ol type="A"><li>Python</li><li>Java</li></ol></li>
+<li>Tools<ul style="list-style-type: circle;"><li>VS Code</li><li>Git</li></ul></li>
+</ul>
+
+<!-- Q19 -->
+<ol start="10" reversed>
+<li>Rank 10</li><li>Rank 9</li><li>Rank 8</li><li>Rank 7</li><li>Rank 6</li>
+</ol>
+
+<!-- Q20 -->
+<ol>
+<li>Q1</li><li>Q2</li>
+<li value="10">Q3 becomes 10</li>
+<li>Q4 becomes 11</li>
+<li value="20">Q5 becomes 20</li>
+<li>Q6 becomes 21</li>
+</ol>
+
+<!-- Q21 -->
+<dl>
+<dt>API</dt>
+<dd>Application Programming Interface</dd>
+<dd>Way for two apps to talk</dd>
+</dl>
+
+<!-- Q22 -->
+<ol>
+<li>Section 1<ul><li>Point A</li></ul></li>
+<li>Section 2<dl><dt>HTML</dt><dd>Web language</dd></dl></li>
+<li>Section 3</li>
+</ol>
+
+<!-- Q23 -->
+<ul style="list-style-type: square;">
+<li>Milk</li><li>Bread</li><li>Eggs</li><li>Rice</li><li>Sugar</li><li>Tea</li>
+</ul>
+
+<!-- Q24 -->
+<ol type="1" start="1">
+<li>Create HTML file</li><li>Add head and body</li><li>Write content</li><li>Add CSS</li><li>Open in browser</li>
+</ol>
+
+<!-- Q25 -->
+<ol type="I">
+<li>Easy to learn</li><li>Build websites</li><li>High demand</li><li>Base for JS</li>
+</ol>
+
+<!-- Q26 -->
+<ol>
+<li>Module 1 - Frontend<ul><li>HTML</li><li>CSS</li><li>JS</li></ul></li>
+<li>Module 2 - Backend<ul><li>Node</li><li>Express</li><li>MongoDB</li></ul></li>
+</ol>
+
+<!-- Q27 -->
+<dl>
+<dt>Unordered List</dt><dd>List with bullets using ul</dd>
+<dt>Ordered List</dt><dd>List with numbers using ol</dd>
+<dt>Description List</dt><dd>List with terms using dl</dd>
+</dl>
+
+<!-- Q28 -->
+<ol reversed type="a">
+<li>Submit Project</li><li>Test Code</li><li>Write Code</li><li>Plan</li>
+</ol>
+
+<!-- Q29 -->
+<ol start="5" reversed>
+<li>Step 5</li>
+<li value="2">Step 2 (forced)</li>
+<li>Step 3</li><li>Step 4</li><li>Step 5</li>
+</ol>
+
+<!-- Q30 COMBINED -->
+<ul style="list-style-type: square;"><li>HTML</li><li>CSS</li></ul>
+<ol type="A" start="3" reversed><li>Third</li><li>Second</li><li>First</li></ol>
+<dl><dt>Frontend</dt><dd>Client side</dd><dt>Backend</dt><dd>Server side</dd></dl>
+<ul><li>Web<ol><li>HTML</li><li>CSS</li></ol></li></ul>
+
+<!-- Q31 -->
+<ul>
+<li>Programming<dl><dt>Python</dt><dd>Easy language</dd></dl></li>
+<li>Design<dl><dt>Figma</dt><dd>Design tool</dd></dl></li>
+</ul>
+
+<!-- Q32 -->
+<ol>
+<li value="1">Be punctual</li>
+<li>Keep phone silent</li>
+<li value="5">No eating in class</li>
+<li>Submit on time</li>
+<li>Respect others</li>
+</ol>
+
+<!-- Q33 -->
+<ul style="list-style-type: disc;">
+<li>Frontend<ol type="1"><li>HTML<ul style="list-style-type: circle;"><li>Tags</li><li>Attributes</li></ul></li><li>CSS</li></ol></li>
+</ul>
+
+<!-- Q34 -->
+<dl>
+<dt>ul</dt><dd>Unordered list with bullets</dd>
+<dt>ol</dt><dd>Ordered list with numbers</dd>
+<dt>dl</dt><dd>Description list with term and details</dd>
+</dl>
+
+<!-- Q35 FINAL ADVANCED -->
+<ol type="1">
+<li>Section 1 - Languages<ul style="list-style-type: disc;"><li>Python</li><li>Java</li></ul></li>
+<li>Section 2 - Concepts<dl><dt>API</dt><dd>Connects apps</dd></dl></li>
+<li>Section 3 - Steps<ol type="a" start="2"><li>Code</li><li>Test</li></ol></li>
+</ol>
+
+
+    
+</body>
+</html>
