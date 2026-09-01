@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- Q1 -->
+<table border="1">
+<tr><th>Course Name</th><th>Duration</th></tr>
+<tr><td>Web Development</td><td>4 months</td></tr>
+<tr><td>Data Analytics</td><td>5 months</td></tr>
+</table>
+
+<!-- Q2 -->
+<table border="1">
+<caption>Monthly Workshop Schedule</caption>
+<tr><th>Workshop</th><th>Month</th></tr>
+<tr><td>Python Basics</td><td>January</td></tr>
+<tr><td>AI Tools</td><td>February</td></tr>
+</table>
+
+<!-- Q3 - colspan -->
+<table border="1">
+<tr><th colspan="2">Institute Programs</th></tr>
+<tr><td>Full Stack</td><td>Data Science</td></tr>
+</table>
+
+<!-- Q4 - rowspan -->
+<table border="1">
+<tr><td rowspan="2">Programming Track</td><td>Semester 1</td></tr>
+<tr><td>Semester 2</td></tr>
+</table>
+
+<!-- Q5 - thead tbody tfoot -->
+<table border="1">
+<caption>Student Performance Report</caption>
+<thead><tr><th>Student Name</th><th>Grade</th></tr></thead>
+<tbody><tr><td>Aman</td><td>A</td></tr><tr><td>Priya</td><td>B+</td></tr></tbody>
+<tfoot><tr><td colspan="2">End of Report</td></tr></tfoot>
+</table>
+
+<!-- Q6 - scope=col -->
+<table border="1">
+<tr><th scope="col">Name</th><th scope="col">Age</th><th scope="col">City</th></tr>
+<tr><td>Rahul</td><td>20</td><td>Delhi</td></tr>
+<tr><td>Neha</td><td>21</td><td>Pune</td></tr>
+</table>
+
+<!-- Q7 - scope=row -->
+<table border="1">
+<tr><th scope="row">Course</th><td>Web Development</td></tr>
+<tr><th scope="row">Duration</th><td>4 Months</td></tr>
+<tr><th scope="row">Mode</th><td>Online</td></tr>
+</table>
+
+<!-- Q8 - id and headers -->
+<table border="1">
+<tr><th id="subject">Subject</th><th id="marks">Marks</th><th id="result">Result</th></tr>
+<tr><td headers="subject">Math</td><td headers="marks">85</td><td headers="result">Pass</td></tr>
+<tr><td headers="subject">Science</td><td headers="marks">90</td><td headers="result">Pass</td></tr>
+</table>
+
+<!-- Q9 -->
+<table border="1">
+<caption>Department Summary</caption>
+<thead><tr><th scope="col">Department</th><th scope="col">Students</th></tr></thead>
+<tbody><tr><td>CS</td><td>60</td></tr><tr><td>IT</td><td>50</td></tr></tbody>
+<tfoot><tr><td colspan="2">Total: 110 Students</td></tr></tfoot>
+</table>
+
+<!-- Q10 - Complete Table -->
+<table border="1">
+<caption>Course Details</caption>
+<thead><tr><th scope="col">Course</th><th scope="col">Duration</th></tr></thead>
+<tbody>
+<tr><th scope="row">Frontend</th><td>4 Months</td></tr>
+<tr><td colspan="2">Backend - 6 Months</td></tr>
+</tbody>
+<tfoot><tr><td colspan="2">End of List</td></tr></tfoot>
+</table>
+
+<!-- Q11 - Timetable rowspan -->
+<table border="1">
+<caption>Weekly Class Schedule</caption>
+<tr><th>Day</th><th>Subject</th></tr>
+<tr><td rowspan="3">Monday</td><td>HTML</td></tr>
+<tr><td>CSS</td></tr>
+<tr><td>JavaScript</td></tr>
+</table>
+
+<!-- Q12 - colspan + rowspan -->
+<table border="1">
+<tr><th colspan="3">Course Comparison</th></tr>
+<tr><th>Category</th><th>Course A</th><th>Course B</th></tr>
+<tr><td rowspan="2">Duration</td><td>4 Months</td><td>6 Months</td></tr>
+<tr><td>Online</td><td>Offline</td></tr>
+</table>
+
+<!-- Q13 -->
+<table border="1">
+<caption>Internal Assessment Marks</caption>
+<thead><tr><th scope="col">Student</th><th scope="col">Marks</th></tr></thead>
+<tbody><tr><td>Aman</td><td>85</td></tr><tr><td>Riya</td><td>92</td></tr><tr><td>Sam</td><td>78</td></tr></tbody>
+<tfoot><tr><td>Highest</td><td>92</td></tr></tfoot>
+</table>
+
+<!-- Q14 - scope + headers together -->
+<table border="1">
+<tr><th id="c1" scope="col">Course</th><th id="c2" scope="col">Fees</th></tr>
+<tr><th id="r1" scope="row">HTML</th><td headers="c2 r1">5000</td></tr>
+<tr><th id="r2" scope="row">CSS</th><td headers="c2 r2">6000</td></tr>
+</table>
+
+<!-- Q15 - Advanced All Features -->
+<table border="1">
+<caption>SkillForge Final Report</caption>
+<thead><tr><th scope="col">Department</th><th scope="col">Course</th><th scope="col">Students</th></tr></thead>
+<tbody>
+<tr><th scope="row" rowspan="2">Programming</th><td>Frontend</td><td>40</td></tr>
+<tr><td>Backend</td><td>35</td></tr>
+</tbody>
+<tfoot><tr><td colspan="2">Total Students</td><td>75</td></tr></tfoot>
+</table>
