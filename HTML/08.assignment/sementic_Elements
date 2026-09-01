@@ -1,0 +1,165 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   !DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Semantic HTML - All Answers</title></head>
+<body>
+
+<!-- Q1: header + main > article + aside + footer -->
+<header>
+  <h1>SkillForge Academy</h1>
+  <p>Welcome to practical learning</p>
+</header>
+<main>
+  <article>
+    <h2>About Our Course</h2>
+    <p>We provide industry-ready training.</p>
+  </article>
+</main>
+<aside>
+  <p>Related: Upcoming Batches</p>
+</aside>
+<footer>
+  <p>&copy; 2026 SkillForge Academy</p>
+</footer>
+
+<hr>
+
+<!-- Q2: section > article > header + time + mark + footer -->
+<section>
+  <article>
+    <header><h2>New Bootcamp Launched</h2></header>
+    <p>Date: <time datetime="2026-08-30">30 Aug 2026</time></p>
+    <p>Join our <mark>Full Stack 2026</mark> program today.</p>
+    <footer>By: News Desk</footer>
+  </article>
+</section>
+
+<hr>
+
+<!-- Q3: blog page -->
+<header>
+  <h1>SkillForge Blog</h1>
+  <nav><a href="#">Home</a> | <a href="#">Articles</a></nav>
+</header>
+<main>
+  <article><h2>HTML Basics</h2><p>HTML is easy to start.</p></article>
+  <article><h2>CSS Tips</h2><p>CSS makes site beautiful.</p></article>
+</main>
+<aside><a href="#">Related Links</a></aside>
+<footer><p>Copyright 2026</p></footer>
+
+<hr>
+
+<!-- Q4: FAQ with details -->
+<section>
+  <h2>FAQ Section</h2>
+  <details><summary>What is SFA?</summary><p>SkillForge Academy is a coding institute.</p></details>
+  <details><summary>Course duration?</summary><p>4 to 6 months.</p></details>
+  <details><summary>Certificate?</summary><p>Yes, provided on completion.</p></details>
+</section>
+
+<hr>
+
+<!-- Q5: product fragment -->
+<main>
+  <article>
+    <h2>Coding Laptop</h2>
+    <p>Best laptop for developers.</p>
+    <figure>
+      <img src="laptop.jpg" alt="Laptop" width="200">
+      <figcaption>SkillForge Laptop 2026</figcaption>
+    </figure>
+    <details><summary>Technical Specs</summary><p>i7, 16GB RAM, 512GB SSD</p></details>
+  </article>
+</main>
+<aside><p>Seller: Tech Store, Pune</p></aside>
+
+<hr>
+
+<!-- Q6: article with 2 time + mark -->
+<article>
+  <header><h2>Learn Daily</h2></header>
+  <p>Published on <time datetime="2026-08-15">15 Aug 2026</time> - <time datetime="PT5M">5 min read</time></p>
+  <p><mark>Consistent practice</mark> is key to success.</p>
+  <footer>Author: Mentor Team</footer>
+</article>
+<aside><p>Related: Practice Challenge</p></aside>
+
+<hr>
+
+<!-- Q7: nav in 3 places -->
+<header><nav><a href="#home">Home</a> <a href="#course">Courses</a></nav></header>
+<main><p>Main content here.</p></main>
+<aside><nav><a href="#html">HTML</a> <a href="#css">CSS</a></nav></aside>
+<footer><nav><a href="#privacy">Privacy</a> <a href="#terms">Terms</a></nav></footer>
+
+<hr>
+
+<!-- Q8: review section -->
+<section>
+  <article>
+    <header><h2>Course Review</h2></header>
+    <figure><img src="review.jpg" alt="Review" width="200"><figcaption>Student project</figcaption></figure>
+    <p><time datetime="2026-08-20">20 Aug 2026</time></p>
+    <details><summary>Read Full Review</summary><p>Excellent course with real projects and placement support.</p></details>
+    <footer>By Batch 2025 Student</footer>
+  </article>
+</section>
+
+<hr>
+
+<!-- Q9: Full homepage with all elements -->
+<header><h1>TechNova</h1><nav><a href="#">Home</a> <a href="#">Courses</a></nav></header>
+<main>
+  <section>
+    <article>
+      <header><h2>Frontend</h2></header>
+      <p>Course starts <time datetime="2026-09-01">1 Sep 2026</time> with <mark>live projects</mark></p>
+      <figure><img src="a.jpg" alt="img" width="100"><figcaption>Batch Photo</figcaption></figure>
+      <footer>By Admin</footer>
+    </article>
+  </section>
+  <section>
+    <article>
+      <header><h2>Backend</h2></header>
+      <p>Backend mastery</p>
+      <details><summary>Details</summary><p>Node, DB included</p></details>
+      <footer>By Mentor</footer>
+    </article>
+  </section>
+  <aside>Related Courses</aside>
+</main>
+<footer>Footer - 2026</footer>
+
+<hr>
+
+<!-- Q10: Magazine layout -->
+<header><h1>Daily Tech News</h1></header>
+<main>
+  <section>
+    <article>
+      <header><h2>AI in Education</h2></header>
+      <p><time datetime="2026-08-30">30 Aug 2026</time> - <mark>AI</mark> is changing learning.</p>
+      <footer>By Editor</footer>
+    </article>
+  </section>
+  <section>
+    <article>
+      <header><h2>New Bootcamp</h2></header>
+      <p><time datetime="2026-08-29">29 Aug 2026</time> - Join <mark>2026 Batch</mark>.</p>
+      <footer>By SFA Team</footer>
+    </article>
+  </section>
+  <aside><h3>Editor's Picks</h3><p>Top 5 Projects</p></aside>
+</main>
+<footer><p>&copy; 2026 Daily Tech</p></footer>
+
+</body>
+</html> 
