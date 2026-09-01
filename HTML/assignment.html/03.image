@@ -1,0 +1,67 @@
+html<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Images Q1-Q12</title></head>
+<body>
+
+<!-- Q1 Same folder -->
+<h3>Q1 Same Folder</h3>
+<img src="flower.jpg" alt="Beautiful pink flower in garden">
+
+<!-- Q2 Image inside images folder + width 200 -->
+<h3>Q2 Inside images folder</h3>
+<img src="images/logo.png" alt="Company logo" width="200">
+
+<!-- Q3 Nested folder assets/images -->
+<h3>Q3 assets/images/banner.jpg</h3>
+<img src="assets/images/banner.jpg" alt="Website main banner">
+
+<!-- Q4 HTML in pages folder, image in root -->
+<h3>Q4 HTML in pages folder</h3>
+<!-- pages/page.html se root ka photo.jpg dikhana hai to ../ use hoga -->
+<img src="../photo.jpg" alt="Photo from root folder">
+
+<!-- Q5 With width height alt -->
+<h3>Q5 With dimensions</h3>
+<img src="images/nature.jpg" alt="Beautiful nature view" width="300" height="200">
+
+<!-- Q6 Title on hover -->
+<h3>Q6 Title Attribute</h3>
+<img src="images/nature.jpg" alt="Nature view" title="Click to view full size" width="300">
+
+<!-- Q7 Lazy Loading -->
+<h3>Q7 Lazy Loading</h3>
+<img src="images/product.jpg" alt="Product image loads on scroll" loading="lazy" width="300">
+
+<!-- Q8 Eager Loading - Hero -->
+<h3>Q8 Eager Hero Image</h3>
+<img src="images/hero.jpg" alt="Hero banner of website" loading="eager" width="600">
+
+<!-- Q9 loading auto -->
+<h3>Q9 loading auto</h3>
+<img src="images/nature.jpg" alt="Nature" loading="auto" width="300">
+<!-- Comment: Browser will decide automatically whether to load eagerly or lazily based on its own logic -->
+
+<!-- Q10 Responsive srcset 3 versions -->
+<h3>Q10 Responsive srcset</h3>
+<img src="medium.jpg" alt="Responsive nature image" 
+srcset="small.jpg 400w, medium.jpg 800w, large.jpg 1200w" 
+sizes="(max-width: 600px) 400px, (max-width: 900px) 800px, 1200px"
+width="800">
+
+<!-- Q11 All attributes together -->
+<h3>Q11 Complete Tag</h3>
+<img src="images/travel.jpg" 
+alt="Mountain travel view" 
+width="400" height="300" 
+loading="lazy" 
+title="Explore mountains" 
+srcset="images/travel-small.jpg 400w, images/travel-large.jpg 800w"
+sizes="(max-width: 600px) 400px, 800px">
+
+<!-- Q12 Two images side by side -->
+<h3>Q12 Two images - Eager + Lazy</h3>
+<img src="assets/logo.png" alt="Company logo" width="250" loading="eager">
+<img src="images/products/shoe.jpg" alt="Running shoe product photo" width="250" loading="lazy">
+
+</body>
+</html>
