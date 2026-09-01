@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>HTML Entities - Q1 to Q10</title></head>
+<body>
+
+<!-- Q1 Reserved < > & -->
+<h3>Q1 Reserved Characters</h3>
+<p>The tag &lt;div&gt; is used for section.</p>
+<p>The condition 10 &gt; 5 is true.</p>
+<p>Learn HTML &amp; CSS together.</p>
+<p>Hex version: &#x3C;div&#x3E; is &#x3C;tag&#x3E;</p>
+<p>Hex version: 10 &#x3E; 5</p>
+<p>Hex version: HTML &#x26; CSS</p>
+
+<hr>
+<!-- Q2 Price List Currency -->
+<h3>Q2 Price List</h3>
+<p>Course 1: &euro;50 - Hex: &#x20AC;50 - Euro</p>
+<p>Course 2: &pound;40 - Decimal: &#163;40 - Pound</p>
+<p>Course 3: &yen;5000 - Yen Symbol</p>
+
+<hr>
+<!-- Q3 Math -->
+<h3>Q3 Mathematical Symbols</h3>
+<p>5 &ne; 10 - Not equal named entity</p>
+<p>Total sum is &#x2211; n = 55 - Summation hex entity</p>
+<p>Number goes to &#8734; - Infinity decimal entity</p>
+
+<hr>
+<!-- Q4 En dash Em dash -->
+<h3>Q4 Dashes</h3>
+<p>Academic year 2023&ndash;2025 with en dash - Hex: 2023&#x2013;2025</p>
+<p>I love coding &mdash; especially HTML &mdash; so much - Em dash named - Hex: I love &#x2014; coding &#x2014;</p>
+
+<hr>
+<!-- Q5 Copyright Branding -->
+<h3>Q5 Footer Legal</h3>
+<p>&copy; 2026 SkillForge Academy. All rights reserved. - Hex: &#xA9; 2026</p>
+<p>SkillForge&reg; is a registered brand. - Decimal: SkillForge&#174;</p>
+<p>CodePro&trade; is our product. - Hex: CodePro&#x2122;</p>
+
+<hr>
+<!-- Q6 Arrows Navigation -->
+<h3>Q6 Navigation Arrows</h3>
+<p>Go Back &larr; Home - Named left arrow</p>
+<p>Go Next &#x2192; Courses - Hex right arrow</p>
+<p>Go Top &#8593; Header - Decimal up arrow</p>
+
+<hr>
+<!-- Q7 Emojis -->
+<h3>Q7 Emojis</h3>
+<p>Happy Coding &#x1F600; - Smiling face hex</p>
+<p>Task Completed &#9989; - Check mark decimal</p>
+<p>I &hearts; HTML - Heart named, also &#x2764; hex</p>
+
+<hr>
+<!-- Q8 Comparison 3 formats -->
+<h3>Q8 Comparison Same Symbol</h3>
+<p>Symbol: Copyright - Named: &copy;</p>
+<p>Symbol: Copyright - Hex: &#xA9;</p>
+<p>Symbol: Copyright - Decimal: &#169;</p>
+
+<hr>
+<!-- Q9 Mix Product Desc -->
+<h3>Q9 Product Description Mix</h3>
+<p>Learn &lt;HTML5&gt; &amp; CSS3 Pro Course for only &euro;99. Score &ne; 0 guarantee! SkillForge&copy; - Click Next &rarr; &#x1F600;</p>
+
+<hr>
+<!-- Q10 Mini Symbol Reference -->
+<h2>Q10 Symbol Reference Page</h2>
+<p>1. Reserved: Write &lt;p&gt; tag using &lt; &amp; &gt; entities. Hex: &#x3C;p&#x3E;</p>
+<p>2. Currency: Fees &euro;50, &pound;40, &yen;5000 (Euro: &#x20AC;)</p>
+<p>3. Math: 5 &ne; 10, sum &#x2211; is &#8734; (ne named, sum &#x2211; hex, infinity &#8734; decimal)</p>
+<p>4. Arrows: &larr; Back, &#x2192; Next, &#8593; Top</p>
+<p>5. Legal & Emoji: &copy; 2026 SkillForge&reg; loves &hearts; and &#x1F600; &#9989;</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
