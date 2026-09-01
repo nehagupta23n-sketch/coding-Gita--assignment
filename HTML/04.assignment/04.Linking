@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    p><a href="https://learninghub.org" target="_blank"><em>External</em> Visit Learning Hub</a></p>
+<p><a href="courses.html">View Our Courses</a></p>
+
+<!-- Q4 -->
+<p><mark>Quick Navigation</mark></p>
+<a href="#about">About</a> | <a href="#programs">Programs</a> | <a href="#contact">Contact</a>
+<h2 id="about">About Us</h2>
+<h2 id="programs">Our Programs</h2>
+<h2 id="contact">Contact Information</h2>
+
+<!-- Q5 -->
+<a href="https://edupartner.org" target="_blank"><i>Partner</i> Site</a> |
+<a href="privacy.html">Privacy Policy</a> |
+<a href="terms.pdf" download title="Download Terms & Conditions">Download Terms</a>
+
+<!-- Q6 -->
+<p><del>Basic Web Design</del> <a href="frontend-pro.html"><strong><ins>Modern Frontend Development</ins></strong></a></p>
+
+<!-- Q7 -->
+<blockquote>The hands-on projects helped me get my first internship.</blockquote>
+<cite>Student Feedback – Batch 2025</cite><br>
+<a href="reviews.html">Read more reviews</a>
+
+<!-- Q8 -->
+<h1 id="home">SkillForge Academy</h1>
+<a href="#faculty">Faculty</a> | <a href="#facilities">Facilities</a>
+<h2 id="faculty">Faculty</h2>
+<h2 id="facilities">Facilities</h2>
+<a href="#home"><b>Back to Top</b></a>
+
+<!-- Q9 -->
+<p>Welcome to <abbr title="SkillForge Academy">SFA</abbr></p>
+<a href="project-list.pdf" download><small>Download Project List</small></a>
+
+<!-- Q10 -->
+<p><q cite="https://skillforge.academy/admissions">Admissions are now open for the new batch.</q> <a href="apply.html" target="_blank">Apply Now</a></p>
+
+<!-- Q11 -->
+<p><strong>SkillForge Academy</strong> offers Programming Support <bdo dir="rtl">कोडिंग</bdo> <a href="about.html">Learn More</a></p>
+
+<!-- Q12 -->
+<p>Fee: <del>₹15,000</del> <mark><ins>₹11,999</ins></mark> <a href="fees.html" target="_blank">View complete fee structure</a></p>
+
+<!-- Q13 -->
+<p><em>Jump to Section</em></p>
+<a href="#intro">Intro</a> | <a href="#curriculum">Curriculum</a> | <a href="#mentors">Mentors</a> | <a href="#enroll">Enrollment</a>
+<h2 id="intro">Introduction</h2>
+<h2 id="curriculum">Curriculum</h2>
+<h2 id="mentors">Mentors</h2>
+<h2 id="enroll">Enrollment</h2>
+
+<!-- Q14 -->
+<p><abbr title="Horizon Learning Partners">HLP</abbr> says <q>Together we build future-ready skills.</q> <a href="https://horizonpartners.org" target="_blank">Visit HLP</a></p>
+
+<!-- Q15 -->
+<address>SkillForge Academy<br>22 <i>Knowledge Park</i>, Phase 3<br>Pune, Maharashtra 411057</address>
+<a href="contact.html">Send us an email</a>
+
+<!-- Q16 -->
+<p><b>SkillForge Academy</b> event on <mark>15 September 2026</mark> <a href="event.html" target="_blank">View Event Details</a> <small>Limited seats only</small></p>
+
+<!-- Q17 -->
+<blockquote>Daily coding practice is the most effective way to improve problem-solving skills.</blockquote>
+<cite>Effective Learning Habits in Programming</cite><br>
+<a href="https://research.org/paper.pdf" target="_blank">Read full paper</a>
+
+<!-- Q18 -->
+<p>Duration: <del>6 months</del> <strong><ins>4 months</ins></strong> <a href="courses.html">Compare all courses</a></p>
+
+<!-- Q19 -->
+<p><b>Quick Links</b></p>
+<a href="https://developerdocs.io" target="_blank">Developer Docs</a> |
+<a href="faq.html">FAQ</a> |
+<a href="brochure.pdf" download title="Download 2026 Brochure">Download Brochure</a>
+
+<!-- Q20 -->
+<a href="#vision">Read Our Vision</a>
+<h2 id="vision">Our Vision</h2>
+<p><q cite="https://skillforge.academy/vision">Build skills that industries actually need.</q></p>
+
+<!-- Q21 -->
+<p><abbr title="SkillForge Academy">SFA</abbr> <mark>New Batch Starting</mark> <a href="register.html" target="_blank"><em>Register</em> Now</a></p>
+
+<!-- Q22 -->
+<p>My 4<sup>th</sup> project <strong>E-Commerce App</strong> <a href="https://demo.com" target="_blank">View Project Demo</a></p>
+
+<!-- Q23 -->
+<p><abbr title="SkillForge Academy">SFA</abbr> supports <bdo dir="rtl">برمجة</bdo> <a href="support.html">Language Support Details</a></p>
+
+<!-- Q24 -->
+<p><mark>SkillForge Academy</mark> <q cite="https://skillforge.academy">Practical learning is our focus</q> 
+<a href="guide.pdf" download title="Download Guide">Download Guide</a>
+<a href="#faq">Go to FAQ</a></p>
+<h2 id="faq">FAQ</h2>
+
+<!-- Q25 -->
+<blockquote>Consistent practice is the key to success.</blockquote>
+<cite>TechNova Handbook</cite>
+<h2 id="tips">Tips</h2>
+<h2 id="resources">Resources</h2>
+<a href="#tips">Tips</a> | <a href="#resources">Resources</a>
+
+<!-- Q26 -->
+<p><del>₹15,000</del> <mark><ins>₹11,999</ins></mark> <a href="enroll.html" target="_blank"><strong>Enroll Now</strong></a></p>
+
+    
+</body>
+</html>
