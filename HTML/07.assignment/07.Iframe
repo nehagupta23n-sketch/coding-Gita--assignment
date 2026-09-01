@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ Q1 
+<iframe src="https://www.example.com" width="100%" height="400" title="Example Website Homepage" style="border:none;"></iframe>
+
+ Q2
+<a href="https://www.example.com" target="myFrame">Open Example Site</a>
+<iframe name="myFrame" src="about:blank" width="100%" height="300" title="Example Content Frame" style="border:none;"></iframe>
+ Q3 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allow="fullscreen; gyroscope" allowfullscreen title="YouTube Video Player" style="border:none;"></iframe>
+
+ q4
+<style>.responsive-iframe{width:100%; height:400px; border:none; margin:10px;}</style>
+<iframe src="https://www.example.com" class="responsive-iframe" title="Responsive Example Website"></iframe>
+
+ Q5 
+<iframe src="https://www.example.com" width="800" height="450" allow="fullscreen" allowfullscreen title="Map View Fullscreen Allowed" style="border:none;"></iframe>
+
+ Q6
+<iframe src="https://www.example.com" width="100%" height="500" allow="gyroscope" title="Interactive Gyroscope Demo" style="border:none;"></iframe>
+
+ Q7 
+<iframe src="https://device.example.com" width="600" height="400" allow="usb" title="USB Device Control Panel" style="border:none;"></iframe>
+
+ Q8 
+<iframe src="https://www.example.com" width="700" height="400" allow="fullscreen; gyroscope; usb" title="Full Permissions Demo" style="border:none;"></iframe>
+
+ Q9 
+<iframe src="https://www.example.com" width="48%" height="350" allow="fullscreen" allowfullscreen title="Fullscreen Only Frame" style="border:none;"></iframe>
+<iframe src="https://www.example.com" width="48%" height="350" allow="gyroscope" title="Gyroscope Only Frame" style="border:none;"></iframe>
+
+Q10 
+<nav>
+<a href="https://www.example.com" target="contentFrame">Site 1</a> |
+<a href="https://www.wikipedia.org" target="contentFrame">Site 2</a> |
+<a href="https://www.example.org" target="contentFrame">Site 3</a>
+</nav>
+<iframe name="contentFrame" width="100%" height="400" title="Dynamic Content Viewer" style="border:none;"></iframe>
+
+Q11
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allow="fullscreen; gyroscope" allowfullscreen title="Video with Gyroscope Support" style="border:none;"></iframe>
+
+ Q12 
+<iframe src="https://www.example.com" width="100%" height="300" title="Restricted Example Website" style="border:none;"></iframe>
+
+ Q13 
+<style>
+.responsive-box{position:relative; width:100%; padding-bottom:56.25%;}
+.responsive-box iframe{position:absolute; top:0; left:0; width:100%; height:100%; border:none;}
+</style>
+<div class="responsive-box"><iframe src="https://www.example.com" title="Responsive Ratio Website"></iframe></di
+Q14
+<h1>My Page</h1><p>This is a demo page with two iframes.</p>
+<iframe src="https://device.example.com" width="100%" height="300" allow="usb" title="USB Device Frame" style="border:none;"></iframe>
+<iframe src="https://www.example.com" width="100%" height="300" allow="fullscreen" allowfullscreen title="Fullscreen Video Frame" style="border:none;"></iframe>
+ Q15 
+<iframe src="https://www.example.com" width="100%" height="400" allow="fullscreen" title="Example Official Site" style="border:none;"></iframe>
+ Q16 
+<iframe src="https://interactive.example.com/demo" width="100%" height="400" allow="fullscreen; gyroscope" allowfullscreen title="Interactive Gyroscope Demo with Fullscreen" style="border:none;"></iframe>
+
+ Q17 
+<style>.half{width:45%; display:inline-block;}</style>
+<iframe class="half" src="https://device.example.com" height="350" allow="usb" title="USB Control" style="border:none;"></iframe>
+<iframe class="half" src="https://www.example.com" height="350" allow="gyroscope" title="Gyroscope Sensor" style="border:none;"></iframe>
+
+ Q18 
+<iframe src="https://www.example.com" width="100%" height="500" allow="fullscreen" allowfullscreen title="Minimal Fullscreen Allowed Website" style="border:none;"></iframe>
+
+ Q19 
+<iframe src="https://www.example.com" width="100%" height="300" allow="fullscreen" allowfullscreen title="Frame A - With Fullscreen Allowed" style="border:none;"></iframe>
+<iframe src="https://www.example.com" width="100%" height="300" title="Frame B - No Allow Attribute Restricted" style="border:none;"></iframe>
+- Q20 
+<style>.card-frame{border:none; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15); width:100%; height:420px;}</style>
+<iframe src="https://www.example.com" class="card-frame" allow="gyroscope" title="Styled Gyroscope Content Card"></iframe>
+
+ Q21 
+<a href="https://device.example.com" target="myDeviceFrame" style="padding:10px 15px; background:#007bff; color:white; text-decoration:none;">Load Device</a>
+<iframe name="myDeviceFrame" width="100%" height="400" allow="usb" title="USB Device Target Frame" style="border:none; margin-top:10px;"></iframe>
+
+ Q22 
+<iframe src="https://device.example.com" width="700" height="450" allow="fullscreen; usb" title="Fullscreen and USB Device Frame" style="border:none;"></iframe>
+
+ Q23 
+<style>.video-wrap{width:100%; aspect-ratio:16/9;} .video-wrap iframe{width:100%; height:100%; border:none;}</style>
+<div class="video-wrap"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allow="fullscreen; gyroscope" allowfullscreen title="Responsive Video Player with Gyroscope"></iframe></div>
+
+ Q24 
+<iframe src="https://www.example.com" width="100%" height="300" allow="fullscreen" allowfullscreen title="First - Fullscreen Only"></iframe>
+<iframe src="https://www.example.com" width="80%" height="350" allow="gyroscope" title="Second - Gyroscope Only"></iframe>
+<iframe src="https://device.example.com" width="60%" height="400" allow="usb" title="Third - USB Only"></iframe>
+
+ Q25 
+<style>body{margin:0;} header{background:#111; color:white; padding:15px; text-align:center;} .full-frame{width:100%; height:calc(100vh - 60px); border:none;}</style>
+<header>Device Dashboard</header>
+<iframe src="https://device.example.com" class="full-frame" allow="fullscreen; gyroscope; usb" title="Full Dashboard with All Permissions"></iframe>
+
+ Q26 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allow="fullscreen" allowfullscreen title="Corrected YouTube Video - Fullscreen Only" style="border:none;"></iframe>
+
+ Q27
+
+<ul>
+<li><a href="https://www.example.com" target="viewFrame">Example.com</a></li>
+<li><a href="https://www.example.org" target="viewFrame">Example.org</a></li>
+<li><a href="https://www.wikipedia.org" target="viewFrame">Wikipedia</a></li>
+</ul>
+<iframe name="viewFrame" width="100%" height="400" allow="fullscreen" allowfullscreen title="Fullscreen Target Viewer" style="border:none;"></iframe>
+
+ Q28
+<style>.center-card{width:90%; max-width:800px; height:400px; margin:20px auto; display:block; border:none; border-radius:16px; box-shadow:0 8px 24px rgba(0,0,0,0.2);}</style>
+<iframe src="https://www.example.com" class="center-card" allow="gyroscope" title="Centered Modern Gyroscope Card"></iframe>
+
+Q29 
+<iframe src="https://www.example.com" width="48%" height="350" allow="fullscreen" allowfullscreen title="Version A - Fullscreen Only" style="border:none;"></iframe>
+<iframe src="https://www.example.com" width="48%" height="350" allow="fullscreen; gyroscope; usb" title="Version B - All Three Permissions" style="border:none;"></iframe>
+
+Q30
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Best Practice Iframes</title>
+<style>iframe{border:none; width:100%; border-radius:8px; margin-bottom:20px;}</style>
+</head>
+<body>
+<h1>Iframe Best Practices Demo</h1>
+
+<!-- Normal webpage, no special permissions needed, most secure -->
+<iframe src="https://www.example.com" height="300" title="General Website - No Special Permissions"></iframe>
+
+<!-- Video that needs fullscreen and gyroscope for 360 view -->
+<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" height="315" allow="fullscreen; gyroscope" allowfullscreen title="Video Player - Needs Fullscreen and Gyroscope"></iframe>
+
+<!-- Device panel that needs USB access -->
+<iframe src="https://device.example.com" height="400" allow="usb" title="Device Panel - Needs USB Access"></iframe>
+</body>
+</html> 
