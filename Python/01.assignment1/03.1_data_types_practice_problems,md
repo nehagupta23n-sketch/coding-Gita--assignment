@@ -1,0 +1,118 @@
+ type()
+# Answer:-
+x = 25
+print(type(x))
+
+# 19:-
+price = 99.50
+print(type(price))
+
+# 20
+name = "Python"
+print(type(name))
+
+# 21
+is_active= True
+print(type(is_active))
+
+# 22
+data = None
+print(type(data))
+
+# 23
+name="neha"
+is_student= True
+mark= 96
+percentage= 96.8
+result= None
+print(type(name))
+print(type(is_student))
+print(type(mark))
+print(type(percentage))
+print(type(result))
+
+
+
+# 24
+
+is_active=True
+name="True"
+print(type(is_active))
+print(type(name))
+
+
+
+
+# 25
+a = 50
+b = 50.0
+c = "50"
+print(type(a))
+print(type(b))
+print(type(c))
+
+
+# 26
+a =True
+b ="True"
+print(type(a))
+print(type(b))
+
+
+# 27
+a =None
+b ="None"
+print(type(a))
+print(type(b))
+
+
+# 28
+name=45
+print(type(name))
+name="45"
+print(type(name))
+
+# explaination
+# at first value was int type, after reassingment it became str type.
+
+
+
+# 29
+product_name="28"
+product_integer= 28
+product_price= 28.8
+is_available= True
+discount= None
+
+print(type(product_name))
+print(type(product_integer))
+print(type(product_price))
+print(type(is_available))
+print(type(discount))
+
+
+
+# 30
+# create small program that demonstrates the difference between
+# Ans:-
+mark=10
+mark=10.0
+mark="10"
+is_mark=True
+mark="True"
+mark= None
+mark="None"
+
+print(type(mark))
+print(type(mark))
+print(type(mark))
+print(type(is_mark))
+print(type(None))
+print(type(mark))
+
+
+
+
+
+
+
