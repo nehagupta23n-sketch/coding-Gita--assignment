@@ -1,0 +1,193 @@
+ 45
+price = "1200"
+quantity = "4"
+total_price= price*quantity
+price=int(price)
+quantity=int(quantity)
+print("Price: {price}")
+print(f"Quantity:{quantity}")
+print(f"total_price:{total_price}")
+
+
+# 46
+python_marks = "85"
+math_marks = "78"
+physics_marks = "91"
+
+
+python_marks = int(python_marks)
+math_marks = int(math_marks)
+physics_marks = int(physics_marks)
+
+total_marks = python_marks + math_marks + physics_marks
+average_marks = total_marks / 3
+
+print(f"Total marks: {total_marks}")
+print(f"Average marks: {average_marks}")
+
+
+# 47
+price = "1500"
+quantity = "2"
+tax_rate = "5"
+
+price = int(price)
+quantity = int(quantity)
+tax_rate = int(tax_rate)
+
+subtotal = price * quantity
+tax_amount = subtotal * tax_rate / 100
+final_bill = subtotal + tax_amount
+
+print(f"Subtotal: {subtotal}")
+print(f"Tax amount: {tax_amount}")
+print(f"Final bill: {final_bill}")
+
+# 48
+price = 2000
+discount_percent = 15
+gst_percent = 18
+
+discount_amount = price * discount_percent / 100
+price_after_discount = price - discount_amount
+
+gst_amount = price_after_discount * gst_percent / 100
+final_price = price_after_discount + gst_amount
+
+print(f"Discount amount: {discount_amount}")
+print(f"Price after discount: {price_after_discount}")
+print(f"GST amount: {gst_amount}")
+print(f"Final price: {final_price}")
+
+# 49
+price= "500"
+price=int(price)
+quantity=3
+total=price+quantity
+print("Total:total")
+
+# 50
+marks1 = "80"
+marks2 = "75"
+marks3 = "90"
+
+mark1=int(mark1)
+mark2=int(mark2)
+mark3=int(mark3)
+total = marks1 + marks2 + marks3
+
+print(f"Total Marks: total")
+
+# topic:-6 Output prediction and Conceptual practice
+
+# 51
+a = "50"
+b = int(a)
+
+print(a)
+print(b)
+print(type(a))
+print(type(b))
+
+# 52
+number = 99.99
+result = int(number)
+
+print(number)
+print(result)
+
+# 53
+a = 12
+b = 5
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a // b)
+print(a % b)
+
+# 54
+print(10 + 5 * 2)
+print((10 + 5) * 2)
+print(20 / 5 + 3)
+print(20 / (5 + 3))
+
+# 55
+number = 684
+
+a = number % 10
+b = number // 10
+c = b % 10
+d = number // 100
+
+print(a)
+print(c)
+print(d)
+
+# 56
+student_name = "Ravi"
+marks = 85
+
+total = marks + 5
+
+print("Student:", student_name)
+print("Marks:", total)
+print("Type: type(total)")
+
+# 57
+number = 746
+
+ones = number / 10
+tens = number // 10
+hundreds = number // 100
+
+print(f"Ones: {ones}")
+print(f"Tens: {tens}")
+print(f"Hundreds: {hundreds}")
+
+# 58
+price = "2000"
+discount = "15"
+
+discount_amount = price * discount / 100
+final_price = price - discount_amount
+
+print(f"Discount: {discount_amount}")
+print(f"Final Price: {final_price}")
+
+# 59
+student_name = "Rahul"
+marks1 = "85"
+marks2 = "90"
+marks3 = "78"
+mark1=int(mark1)
+mark2=int(mark2)
+mark3=int(mark3)
+
+total = marks1 + marks2 + marks3
+average = total / 3
+
+print(f"Student: {student_name}")
+print(f"Total Marks: {total}")
+print(f"Average: {average}")
+print(f"Marks Type: {total}")
+
+
+# 60
+number = int(input("Enter the number"))
+
+ones = number % 10
+tens = number // 10 % 10
+hundreds = number // 100 % 10
+thousands = number // 1000 % 10
+
+sum_of_digits = thousands + hundreds + tens + ones
+reversed_number = ones*1000 + tens*100 + hundreds*10 + thousands
+
+print(f"Thousands digit: {thousands}")
+print(f"Hundreds digit: {hundreds}")
+print(f"Tens digit: {tens}")
+print(f"Ones digit: {ones}")
+print(f"Sum of digits: {sum_of_digits}")
+print(f"Reversed number: {reversed_number}")
