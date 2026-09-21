@@ -1,0 +1,68 @@
+# 24
+num=int(input("Enter the number"))
+print(f"Ones digit: {num%10}")
+print(f"Tens digit: {(num//10)%10}")
+print(f"Hundreds digit:{num//100} ")
+
+# 25
+num= int(input("Enter the number:"))
+print(f"Ones digit:{num%10}")
+print(f"Tens digit:{(num//10)%10}")
+print(f"Hundred digit: {(num//100)%10}")
+print(f"Thousand digit {num//1000}")
+
+# 26
+num=int(input("Enter the number"))
+hundred= num//100
+tens = (num//10)%10
+units = num%10
+sum_of_digit =hundred + tens + units
+print(f"Sum of Digit:{sum_of_digit}")
+
+# 27
+num= int(input("Enter the number"))
+thousands = num // 1000              # 4
+hundreds = (num // 100) % 10         # 7
+tens = (num // 10) % 10              # 2
+units = num % 10                     # 6
+
+# Sum
+sum_of_digits = thousands + hundreds + tens + units
+
+print(f"Sum of Digits: {sum_of_digits}")
+
+# 28
+pro= int(input("Enter the number"))
+hundred_digit = num//100
+tens = (num//10)%10
+units = num%10
+print(f"Product of Digit: {hundreds*tens*units}")
+
+# 29
+number=int(input("Enter the number"))
+hundreds=number//100
+tens =(number%10)%10
+units = number%10
+
+reversed_number = units *100 +tens*10 + hundreds
+print(f"Reversed Number: {reversed_number}")
+
+# 30
+num = int(input("Enter the number"))
+thous21
+num=int(input("Enter the number:"))
+print(f"Ones Digit: {num%10}")
+
+# 22
+number = 583
+print(f"Two digit:{(number//10)%10}")
+
+# 23
+nuand=num//1000
+hundred = (num//100)%10
+tens= (num//10)%10
+ones=num%10
+
+reverse_digit = ones*1000+tens*100+hundred*10+thousand
+print(f"Reversed Number:{reverse_digit}")
+
