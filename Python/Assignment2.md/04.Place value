@@ -1,0 +1,134 @@
+#31
+number = int(input("Enter the number")
+thousands = number // 1000              
+hundreds = (number // 100) % 10         
+tens = (number // 10) % 10              
+ones = number % 10                      
+print(f"Thousands Place: {thousands * 1000}")
+print(f"Hundreds Place: {hundreds * 100}")
+print(f"Tens Place: {tens * 10}")
+print(f"Ones Place: {ones}")
+
+
+
+# 32
+number = 583
+ones = number % 10  
+
+print("Ones Digit:", ones)
+
+
+
+# 33
+
+number = int(input("Enter the number"))
+ones = number % 10 
+
+print("Ones Digit:", ones)
+
+
+
+# 34
+# Question 35
+number=int(input("Enter the number:"))
+number = hundreds * 100 + tens * 10 + ones
+print(f"Number: {number}")
+
+
+
+# real life Arithematic problem
+# 36
+Principal = 10000
+Rate = 5
+Time = 2 
+
+
+
+Simple_interest=(Principal*Rate*Time)/100
+print(Simple_interest)
+
+
+
+# 37
+Length = 15 
+Width = 8 
+area=Length*Width
+perimeter= 2*(Length+Width)
+print(area)
+print(perimeter)
+
+
+
+# 38
+pi = 3.14
+area=pi**2
+print(area)
+
+
+
+# 39
+celcius = 35
+fahrenheit = (celcius*9/5)+32
+print(fahrenheit)
+
+
+
+# 40
+time = 367
+complete_minutes= time//60
+remaining_second = time%60
+print(complete_minutes)
+print(remaining_second)
+
+
+
+# 41
+seconds = 7384
+hour= seconds/3600
+remaining_second= remaining_second//60
+minute= remaining_second//60
+second=remaining_second%60
+print(f"Hours:{hour}")
+print(f"Minutes:{minute}")
+print(f"Seconds: {second}")
+
+
+
+
+# 42
+basic_salary = 25000
+hra = 5000
+travel_allowance=2500
+tax_deduction = 3000
+
+gross_salary = basic_salary+hra+travel_allowance
+net_salary= gross_salary-tax_deduction
+print(gross_salary)
+print(tax_deduction)
+
+
+43
+distance=120
+vehicle = 20
+fuel_costs = 100
+
+fuel_required= distance/vehicle
+total_cost=fuel_required*fuel_costs
+print(fuel_required*fuel_costs)
+print(total_cost)
+
+
+
+# 44
+price="2500"
+discount="10"
+price=int(price)
+discount=int(discount)
+
+discount_amount= price*discount/100
+final_price = price- discount_amount
+
+print(f"Discount amount:{discount_amount}")
+print(f"Final price:{final_price}")
+
+
