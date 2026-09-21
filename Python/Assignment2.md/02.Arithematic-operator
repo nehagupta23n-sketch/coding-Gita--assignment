@@ -1,0 +1,87 @@
+a = 20
+b = 6
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)
+
+# 12
+a = 17
+b = 5
+
+print(a / b)
+print(a // b)
+print(a % b)
+
+result = 10 + 5*2
+print(result)
+# 14
+
+# 15
+print(2 ** 3)
+print(3 ** 2)
+print(10 ** 2)
+
+# 16
+notebook = 80
+pen = 20
+pencil = 10
+
+total_amount =( notebook + pen + pencil)
+print(total_amount)
+
+# 17
+notebook_qyt = 3
+notebook_price= 50
+
+pen_qty = 2
+pen_price = 15
+
+calculator_qyt = 1
+calculator_price = 500
+
+# calculate
+
+notebook_cost = notebook_qyt*notebook_price
+pen_cost = pen_qty*pen_price
+calculator_cost = calculator_qyt*calculator_price
+
+print(f"Notebook:{notebook_cost}")
+print(f"Pen cost: {pen_cost}")
+print(f"Calculator cost: {calculator_cost}")
+
+Total_bill = (notebook_cost+pen_cost+calculator_cost)
+print(f"Total Bills:{Total_bill}")
+
+
+# 18
+student=47
+complete_group = student//5
+student_left_over = student%5
+print(complete_group)
+print(student_left_over)
+
+# 19
+python=85
+Mathematics=78
+physics=92
+total_number=python+Mathematics+physics
+average_number=total_number/3
+print(total_number)
+print(average_number)
+
+# 20
+english = 78
+mathematics = 85
+python = 92
+physics = 81
+chemistry= 74
+
+total_mark=(english+mathematics+python+physics+chemistry)
+percentage=(total_mark/5)
+
+print(total_mark)
+print(percentage)
