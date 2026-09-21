@@ -1,0 +1,76 @@
+# 1
+age=25
+print(type(age))
+
+# 2
+marks="75.5"
+print(type(marks))
+mark=75.5
+print(type(mark))
+
+# 3
+number=50
+print(type(number))
+
+# 4
+marks= 85.9
+print(type(marks))
+
+# 5
+roll_number= "101"
+print(type(roll_number))
+
+# 6
+
+a="18"
+print(type(a))
+b=18
+print(type(b))
+c="100"
+print(type(c))
+d=45.8
+print(type(d))
+
+# 7
+a = "20"
+b = int(a)
+
+c = 10.8
+d = int(c)
+
+e = 25
+f = str(e)
+
+print(b)
+print(d)
+print(f)
+print(type(b))
+print(type(d))
+print(type(f))
+
+
+# 8
+age = "19"
+new_age = int(age) + 1
+print("Age:")
+print(new_age)
+
+# 9
+marks="85"
+bonus_marks=int(marks)+5
+print(bonus_marks)
+
+
+# 10
+# price conversion
+price= "1499.50"
+price_float= float(price)
+total_price = price_float + 99.50
+
+print(price_float)
+print(total_price)
+
+
+
+
+
