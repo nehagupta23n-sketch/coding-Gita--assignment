@@ -1,0 +1,140 @@
+# 1
+a = 15
+b = 20
+
+print(a < b)
+print(a > b)
+print(a == b)
+print(a != b)
+print(a <= b)
+print(a >= b)
+
+# 2
+x = 10
+y = 10
+
+print(x == y)
+print(x != y)
+print(x < y)
+print(x <= y)
+print(x >= y)
+
+# 3
+a = 10
+b = 5
+
+print(a + b == 15)
+print(a * b > 40)
+print(a - b != 5)
+print(a // b == 2)
+
+# 4
+print("Python" == "Python")
+print("Python" == "python")
+print("Hello" != "hello")
+
+# 5
+x = 20
+
+x += 10
+x -= 5
+x *= 2
+x //= 5
+
+print(x)
+
+# 6
+marks = 50
+print(marks>10)
+print(marks<5)
+print(marks*2)
+
+# 7
+text = "Python Programming"
+
+print("Python" in text)
+print("Java" in text)
+print("Python" not in text)
+# 8
+text = "computer"
+print("p"  in text)
+print("x" in text)
+print("c"not in text)
+
+# 9
+text = "Python"
+
+print("P" in text)
+print("p" in text)
+print("Python" in text)
+print("python" in text)
+
+
+# 10
+text=input("enter the text:")
+print("a" in text)
+text=input("enter the text:")
+print("a" in text)
+text=input("Enter the text:")
+print("n" in text)
+
+# 11
+email=input("Enter the email")
+print("a" in email)
+email2=input("enter the email2:")
+print("u" in email2)
+email3=input("Enter the email3:")
+print("x"in email3)
+
+# 12
+print(ord("A"))
+print(ord("a"))
+print(ord("Z"))
+print(ord("0"))
+print(ord("9"))
+print(ord("@"))
+
+# 13
+print(chr(65))
+print(chr(66))
+print(chr(97))
+print(chr(98))
+print(chr(48))
+print(chr(57))
+print(chr(64))
+
+# 14
+print(ord("A"))
+print(ord("a"))
+print(ord("B"))
+print(ord("b"))
+
+# answer1:- ord("a")
+# answer2:- difference
+# 97-65=32
+# answer3:- yes 
+# 98-66=32
+
+# 15
+a=input("Enter the unicode:")
+print(ord(a))
+b=input("enter the unicode:")
+print(ord(b))
+c=input("enter the unicode:")
+print(ord(c))
+
+# 16
+chr=input("Enter the number:")
+print(ord(chr))
+
+# 17
+print(ord("A" < "B"))
+print(ord("a" < "b"))
+print(ord("A" < "a"))
+print(ord("0" < "9"))
+
+# 18
+print(ord(9731))
+print(ord(9829))
+print(ord(8377))
+
