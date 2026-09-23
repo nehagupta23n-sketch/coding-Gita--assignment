@@ -1,0 +1,154 @@
+# 33
+text = "Python is easy"
+
+print(text.split())
+
+# 34
+data = "apple,banana,mango"
+
+print(data.split(","))
+
+# 35
+text = "Python is easy"
+
+print(text.split(","))
+
+# 36
+a= "Rahul Kumar Sharma"
+print("\n".join(a.split()))
+
+# 37
+text= "hello hii good morning"
+print("\n" .join(text.split()))
+
+# # 37
+# first_name,last_name = input().split()
+
+# print(f"First name: {first_name}")
+# print(f"Last name: {last_name}")
+
+
+# 38
+a,b,c=input("Enter the three number:").split()
+
+a=int(a)
+b= int(b)
+c=int(c)
+print(a+b+c)
+
+# 39
+x,y,z = input("Enter the three number:").split()
+
+x=int(x)
+y=int(y)
+z=int(z)
+print(x+y+z)
+# 40
+m,n,o=input("Enter the number").split()
+m=int(m)
+n=int(n)
+o=int(o)
+print(m+n+o)
+
+# 41
+text=input("Enter the text")
+print(f"Name\n: {text}.split(",")")
+print(f"Age\n: {text}.split(",")")
+print(f"course\n: {text}split(",")")
+
+# Q49.
+print("2026", "09", "09", sep="-")Output: 2026-09-09
+
+
+# Q50.
+print("Hello", end=" ")
+print("Python")Output: Hello Python (ek hi line me, kyuki end=" "\n)
+Q51.
+print("10", "20", "30", sep="-")
+print("40", "50", "60", sep="-")
+
+print("10-20-30", end="\n")
+print("40-50-60")Q52. Student Intro f-stringpythonname = input("Enter Name: ")
+age = input("Enter Age: ")
+city = input("Enter City: ")
+course = input("Enter Course: ")
+
+print(f"Name: {name}\nAge: {age}\nCity: {city}\nCourse: {course}")Q53. Formatted Pricepythonprice = float(input())
+print(f"{price:.2f}")
+
+# 51
+print("10", "20", "30", sep="-")
+print("40", "50", "60", sep="-")
+# ya end use karna hai to
+print("10-20-30", end="\n")
+print("40-50-60")
+
+
+# 52
+name = input("Enter Name: ")
+age = input("Enter Age: ")
+city = input("Enter City: ")
+course = input("Enter Course: ")
+
+print(f"Name: {name}\nAge: {age}\nCity: {city}\nCourse: {course}")
+
+# 54
+age = int(input("Enter age: "))
+print("Age after 5 years:", age + 5)
+
+# 55
+print("It's Python")
+print('It\'s Python')
+
+# 56
+text = "Python"
+print(text[1:4]) 
+
+# 57
+a, b = input().split() 
+a= int(a)
+b=int(b)
+print(a+b)
+
+# 58
+a, b = input().split() 
+a= int(a)
+b=int(b)
+print(a + b) 
+
+# 57
+print("C:\\new\\test")
+
+print(r"C:\new\test")
+
+# 58
+name = input()
+m1, m2, m3 = map(int, input().split())
+
+total = m1 + m2 + m3
+avg = total / 3
+
+print(f"Name: {name}\nTotal: {total}\nAverage: {avg:.2f}")
+
+
+# 59
+name = input()
+m1, m2, m3 = map(int, input().split())
+
+total = m1 + m2 + m3
+avg = total / 3
+
+print(f"Name: {name}\nTotal: {total}\nAverage: {avg:.2f}")
+
+# 60
+sid = input() # BTECH-24-CSE-105
+parts = sid.split("-")
+
+print(f"Degree: {parts[0]}")
+print(f"Batch: {parts[1]}")
+print(f"Branch: {parts[2]}")
+print(f"Roll Number: {parts[3]}")
+
+last_three = sid[-3:]
+roll_int = int(last_three)
+print(roll_int) # ya print(f"Roll as int: {roll_int}")
