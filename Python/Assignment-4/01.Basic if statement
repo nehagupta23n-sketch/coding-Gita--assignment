@@ -1,0 +1,63 @@
+ ---1----
+num=int(input("Enter the number"))
+if num>0:
+    print("positive number")
+else:
+    print("No output")
+
+
+# ------2--------
+age=int(input("Enter the number"))
+if age>18:
+    print("Eligible to vote")
+else:
+    print("No output")
+
+# --------3---------
+temperature=int(input("Enter the number"))
+if temperature>40:
+    print("High temperature")
+else:
+    print("No output")
+
+
+# ------4--------
+
+num=int(input("Enter the number"))
+if num%5==0:
+    print("Divisible by 5")
+else:
+    print("No output")
+
+
+# ------5------
+
+ch = input("Enter the ch:")
+if ch=="A":
+    print("you entered A")
+else:
+    print("No output")
+
+
+# ------6-------
+
+password=(input("Enter the password:"))
+if len(password)>=8:
+    print("stromg password")
+else:
+    print("No output")
+
+
+# ------7-------
+
+num=int(input("enter the number"))
+if num>100 and num<999:
+    print("Three digit Number")
+else:
+    print("No output")
+
+
+
+
+
+
