@@ -1,0 +1,153 @@
+ ----------19----------
+marks=int(input("enter the number:"))
+if marks>=90 and marks<100:
+    print("A")
+elif marks>80 and marks<90:
+    print("B")
+elif marks>70 and marks<80:
+    print("C")
+elif marks>60 and marks<70:
+    print("D")
+else:
+    print("below 60")
+
+
+# # -------20---------
+
+temp=int(input("Enter the number"))
+if temp>40:
+    print("Very Hot")
+elif temp>30 and temp<40:
+    print("Hot")
+elif temp>=20 and temp<30:
+    print("Warm")
+else:
+    print("cold")
+
+
+# --------21----------
+
+color= input("enter the color:")
+if "Red":
+    print("stop")
+elif "yellow":
+    print("Wait")
+elif "green":
+    print("Go")
+else:
+    ("Invalid signal")
+
+# -------------22---------
+
+unit=int(input("Enter the unit:"))
+if unit>0 and unit<100:
+    print("Low Usage")
+elif unit>101 and unit<300:
+    print("Medium Usage")
+elif unit>301 and unit<500:
+    print("High Usage")
+else:
+    ("very high Usage")
+
+# ----------23----------
+category=int(input("Enter the category:"))
+if category<5:
+    print("Free Ticket")
+elif category>5 and category<12:
+    print("Regular Ticket")
+else:
+    ("senior ticket")
+
+
+# ---------24-------------
+bmi=float(input("Enter the BMI:"))
+if bmi<18.5:
+    print("Underweight")
+elif bmi>18.5 and bmi< 24.9:
+    print("Normal")
+elif bmi>25 and bmi<29.9:
+    print("Overheight")
+else:
+    print("obese")
+
+# -------------25----------------
+
+month =int(input("Enter the number:"))
+if month==[1,3,5,7,8,10,12]:
+    print("31 Days")
+elif month==[4,6,9,11]:
+    print("30 Days")
+elif month==2:
+    print("Invalid Month")
+
+
+# -----------------26---------------
+
+num_1=int(input("Enter the number:"))
+num_2=int(input("Enter the number:"))
+op = input("Enter the operator(+, -, *,/ ):")
+
+
+if op == '+':
+    print(num_1 + num_2)
+elif op == '-':
+    print(num_1 - num_2)
+elif op == '*':
+    print(num_1 * num_2)
+elif op == '/':
+    print(num_1 / num_2)
+else:
+    print("invalid operator")
+
+
+# --------------27---------------
+
+
+num=int(input("Enter the number"))
+if num==1:
+    print("Monday")
+elif num==2:
+    print("Tuesday")
+elif num==3:
+    print("wednesday")
+elif num==4:
+    print("thursday")
+elif num==5:
+    print("friday")
+elif num==6:
+    print("saturday")
+elif num==7:
+    print("sunday")
+else:
+    print("Invalid Day")
+
+
+
+# -------------28---------------
+
+score = int(input())
+
+if score >= 90:
+    print("Excellent")
+elif score >= 75:
+    print("Very Good")
+elif score >= 60:
+    print("Good")
+elif score >= 40:
+    print("Average")
+else:
+    print("Needs Improvement")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
