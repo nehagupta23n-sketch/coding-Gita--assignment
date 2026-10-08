@@ -1,3 +1,6 @@
+// Answers:-
+
+
 let firstcollection= 15000;
 // let secondcollection=12500;
 let totalcollection= firstcollection+secondcollection
@@ -22,7 +25,7 @@ let b = 5;
 let result = a + b;
 console.log(result); // 105
 
---------5------------
+// --------5------------
 
 let x = 5;
 let y = "3";
@@ -57,3 +60,5 @@ console.log("remainingbalance:" , remainingbalance)
 console.log(5 + "5" + 5); //555
 console.log(5 + 5 + "5"); //105
 console.log("5" + 5 + 5); //555
+
+
