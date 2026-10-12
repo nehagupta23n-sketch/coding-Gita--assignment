@@ -1,0 +1,40 @@
+// loose equality:
+// 1. Loose Equality ==
+// Check whether the string "25" is loosely equal to the number 25.
+// Check if 0 == false returns true or false.
+// Predict the output:
+// console.log(10 == "10");
+// console.log(null == undefined);
+// Predict the output:
+// console.log("" == 0);
+// console.log([] == false);
+// Why does NaN == NaN return false?
+
+// ---------------------------------------------------
+
+// loose Equality
+// --------1---------
+console.log(25=="25")
+
+// ----------2--------
+console.log(0==false)
+
+// -------3--------
+
+console.log(10 == "10");//true
+console.log(null == undefined);//true
+
+// ----------4------------
+
+console.log(null != undefined);
+console.log("" != 0);
+// -----------5------------
+
+console.log(NaN != undefined)
+
+
+
+
+
+
+
