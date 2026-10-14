@@ -1,0 +1,48 @@
+/ less than 
+// ------1--------
+let maxiumweight = 50;
+let currentweight = 42;
+console.log( maxiumweight>currentweight);
+
+// -----------2---------
+let currentAge = 16;
+let mimiumage =18;
+underage= currentAge<mimiumage
+console.log("is the person underage",{underage})
+
+// ----------3-----------
+
+
+console.log(8 < 12);//true
+console.log(20 < 10);//false
+console.log(7 < 7);//false
+
+
+// --------4----------
+
+console.log("8" < 10);//true
+console.log("20" < "3");//false
+console.log("hello" < 5);//false
+
+
+-------------4--------------
+console.log(null<0);//false
+console.log(undefined<0);//false       
+// explain:-null is converted to 0 in relational comparisons (<, >, <=, >=)
+//  but not in equality ==. undefined becomes NaN,
+//   
+
+// -----------5--------------
+let tankcapacity = 500;
+let currentwaterlevel= 375;
+notfull= currentwaterlevel<tankcapacity
+console.log("tank is not full:" , notfull)
+
+
+-----7------
+console.log(false < true); //true
+console.log("5" < "15");//false
+console.log(NaN < 10);//false
+
+
+
