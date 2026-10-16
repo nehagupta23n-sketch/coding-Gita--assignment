@@ -1,0 +1,188 @@
+// ---------1---------
+let temp = 40
+if (temp >=30){
+console.log("it's hot")
+}
+
+// ----------------2-------------
+let marks =78;
+if (marks >=90){
+console.log("Grade A")
+}else{
+    console.log("Failed");
+
+}
+-----------2----
+
+let char= "v";
+if (char == "a" || char=="e" ||char=="i" ||char=="o"||char=="u"){
+
+  console.log("Vowel")
+}else{
+    console.log("consonent")
+}
+
+-----3-----------
+
+
+let marks = 49;
+if (marks>=90 && marks<=100){
+    console.log("A")
+} else if (marks>=75&& marks<=90){
+    console.log("B")
+}else if(marks>=50 && marks<=75){
+    console.log("c")
+}else if(marks<50 && marks>=0){
+    console.log("F")
+}else{
+    console.log("invalid")
+}
+
+
+// =================================
+let age = 25
+if (age<12){/
+
+// ========================NESTED LOOP====================
+let num = 42;
+if(num>=0){
+    if(num%2==0){
+        console.log("the number ${num} is positive & Even")
+    }
+}
+
+// ======================
+
+let num=5;
+if (num>0){
+  if(num%5==0){
+  console.log('The number is",num,"positive & divisible by 5")
+====================
+
+
+let isloggedIn = true;
+// // let isAdmin = true;
+//  if(isloggedIn==true){
+// //   if(isAdmin==true){
+//     console.log("Admin Panel")
+}
+
+ }
+
+
+let year= 2024;
+if (year%4==0){
+    console.log("leap year")-
+}else{
+    console.log("normal day")
+}
+
+-----------1-------------
+
+
+let num= 44;
+if (num%2==0){
+    console.log("number is even")
+}else{
+    console.log("number is odd")
+}
+
+------------2--------------
+
+assignment question:-
+let age = 19;
+if (age>=18){
+    console.log("Eligible for vote")
+}else{
+    console.log("Not eligible")
+}
+
+// -----------------3-----------
+
+let num= 4;
+if (num>=0){
+    console.log("It is positive")
+}else{
+    console.log("Negative")
+}
+
+
+// ----------4----------------
+
+let mark = 33;
+if (mark>=35){
+    console.log("passed")
+}else{
+console.log("failed")
+}
+
+
+
+// -----------5------------
+
+let char = "A"
+  if (char >= 'A' && char <= 'Z') {
+    console.log(char + " is an Uppercase letter");
+  } else {
+    console.log(char + " is NOT an Uppercase letter");
+  }
+
+// -----------6-------------
+let num = 9;
+if (num%3==0 || num%2==0){
+    console.log("divisible by three")
+}else{
+    console.log("not divisible by three")
+}
+  
+--------------7------------------
+let password = "admin123";
+if (password=="admin123"){
+    console.log("login successful")
+
+}else{
+    console.log("incorrect password")
+}
+
+------------8-----------
+let marks=98;
+if( marks>=35){
+    console.log("pass")
+    if (marks>=90){
+        console.log("excellent")
+
+
+// ----------9---------------
+let num= 20;
+if (num>0){
+console.log("positive Even Number")
+}
+
+// -------------10------------
+marks = 75  
+if (marks >= 35 && marks <= 100){
+    console.log("Valid Marks")
+ }else{
+    print("Invalid Marks")
+
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
