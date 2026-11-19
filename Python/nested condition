@@ -1,0 +1,456 @@
+==========1==============
+num= int(input("Enter the number:"))
+# if num>0:
+#   if num%2==0:
+#     print("posive even")
+#   else:
+#     print("positive odd")
+# else:
+#   print("Not Positive")
+
+===================2==============
+
+# age=int(input("Enter the age:"))
+# if age>=18:
+#     if age>=60:
+#         print("Senior Eligible")
+#     else:
+#         print("Adult Eligible")
+# else:
+#     print("Not eligible")
+
+
+=========3=================
+# num=int(input("Enter the number:"))
+# if num>10:
+#     if num>50:
+#         print("Large Number")
+#     else:
+#         print("Medium Number")
+# else:
+#     print("10 or less")
+
+
+==============4==================
+# num=int(input("Enter the number:"))
+# if num>0:
+#     if num%2==0:
+#         print(" positive Even")
+#     else:
+#         print("positive Odd")
+# else:
+#     if num==0:
+#         print("Zero")
+#     else:
+#         print("Negative")
+        
+ ==================5=================      
+
+
+# marks= int(input("Enter the marks:"))
+# if marks>=40:
+#     if marks>=75:
+#         print("Good Performance")
+#     else:
+#         print("pass")
+
+# else:
+#     if marks>=30:
+#         print("Need Improvement")
+#     else:
+#         print("Fail")
+
+===============6=================
+
+# amount=int(input("Enter the amount:"))
+# if amount>=1000:
+#     if amount>=5000:
+#        print("premium purchase")
+#     else:
+#         print("Regular perchase")
+# else:
+#     if amount>0:
+#         print("Small purchase")
+#     else:
+#         print("Invalid amount")
+        
+=======================7=====================
+
+
+
+# # marks = int(input("Enter your marks: "))
+
+# if marks >= 40:
+#     if marks >= 90:
+#         print("A+")
+#     elif marks >= 80:
+#         print("A")
+#     elif marks >= 70:
+#         print("B")
+#     elif marks >= 60:
+#         print("C")
+#     else:
+#         print("D")
+# else:
+#     print("Fail")
+
+
+=============8=======================
+# num= int(input("Enter the number:"))
+# if num>0:
+#     if num%2==0:
+#         print("positive even")
+#     else:
+#         print("positive odd")
+# elif num<0:
+#     print("Negative")
+# else:
+#     print("Zero")
+
+
+# num=int(input("Enter num:"))
+# if num>0:
+#     if num%2==0 and num%3==0:
+#         print("Divisible by 2 and 3")
+#     elif num%2==0:
+#         print("Divisible by 2")
+#     elif num%3==0: 
+#         print("Divisible by 3")
+#     else:
+#        print("not divisible by 2 or 3")
+    
+===================9========================
+
+# num=int(input("Enter num:"))
+# if num>0:
+#     if num%2==0:
+#         print("Positive even")
+#     elif num%3==0:
+#         print("Positive Divisible by 3")
+#     else:
+#         print("positive other")
+# if num<0:
+#     if num%2==0:
+#         print("Negative Even")
+#     elif num%3==0:
+#         print("Negative divisible by 3")
+#     else:
+#         print("Negative other")
+
+# else:
+#     if num==0:
+#         print("zero")
+
+
+
+
+===============10=====================
+
+# # Electricity usages category:
+# unit=int(input("Enter the units:"))
+# if unit<=100:
+#     if unit<=50:
+#         print("Very low usage")
+#     elif unit>=51 and unit<=75:
+#         print("Low usage")
+#     else:
+#         print("Normal Usages")
+
+# elif unit>=101 and unit<=300:
+#     if unit>=101 and unit<=150:
+#         print("Medium Usages")
+#     elif unit>=151 and unit<=250:
+#         print("High usages")
+#     else:
+#         print("Very High Usage")
+
+# else:
+#     if unit>=301 and unit<=400:
+#         print("Heavy Usages")
+#     elif unit>=401 and unit<=500:
+#         print("Very high usages")
+#     else:
+#         print("extremely High Usage")
+
+
+====================11==========================
+
+# num=int(input("Enter the number:"))
+# if 100<= num <=999:
+#     hundreds = num//100
+#     if hundreds>=5:
+#         if num%2==0:
+#             print("even")
+#         else:
+#             print("odd")
+#     else:
+#         if num%3==0:
+#           print("number is divisible by 3")
+#         else:
+#            print("not divisible by 3")
+  
+
+# else:
+#     print("invalid input: Enter a three digit number:")
+
+====================12=========================
+
+# num1=int(input("Enter the num1:"))
+# num2=int(input("Enter the num2:"))
+# num3=int(input("Enter the num3:"))
+# if num1>num2 and num1>num3:
+#     print("A is greatest")
+# elif num2>num1 and num2>num3:
+#     print("B is greatest")
+# elif num3>num1 and num3>num2:
+#     print("C is greatest")
+# elif num1==num2 and num1>num3:
+#     print("A and B are equal and Greatest")
+# elif num2 ==num3 and num2>num1:
+#     print("B and C Equal and Greatest")
+# else:
+#     print("All are equal")
+
+
+=====================14===========================
+
+
+# pin=int(input("Enter the pin"))
+# balance=int(input("Enter the balance"))
+# withdrawl_amount=int(input("Enter the wa:"))
+# if pin==1:
+#     if withdrawl_amount>0:
+#         if balance>=withdrawl_amount:
+#             print("Withdrawl successful")
+#         else: 
+#             print("insufficient balance")
+#     else:
+#             print("invalid amount")
+# else:
+#     print("incorrect pin")
+
+
+  ==================15===========================
+
+# username=int(input("enter the user:"))
+# password=int(input("enter the password:"))
+
+# if username==1:
+#     if password==1:
+#         print("login successful")
+#     else:
+#         print("incorrect password")
+    
+# else:
+#     if password==0:
+#         print("Incorrect username and password")
+
+#     else:
+#         print("incorrect username")    
+  
+===================16=================================
+
+  
+marks=int(input("enter the marks:"))
+attendance=int(input("Enter the attendence:"))
+
+if marks>=40:
+    if attendance>=75:
+        if marks>=75:
+            print("passed with good performance")
+        elif marks>=60 and marks<=74:
+            print("passed")   
+        else:
+            print("passed average")     
+    else:
+        if marks>=75:
+            print("Passed but Attendance Shortage")
+        else:
+            print("Attendance Shortage")
+else:
+     if attendance>=75:
+         print("Failed due to Marks")
+     else:
+         print("Failed due to Marks and Attendance")
+
+          
+=======================17============================
+
+# marks = int(input("Enter the marks: "))
+# attendance = int(input("Enter the attendance: "))
+
+# if marks >= 40:
+#     if attendance >= 75:
+#         if marks >= 75:
+#             print("Passed with Good Performance")
+#         elif marks >= 60:
+#             print("Passed")
+#         else:
+#             print("Passed - Average")
+#     else:
+#         if marks >= 75:
+#             print("Passed but Attendance Shortage")
+#         else:
+#             print("Attendance Shortage")
+
+# else:
+#     if attendance >= 75:
+#         print("Failed Due to Marks")
+#     else:
+#         print("Failed Due to Marks and Attendance")
+
+
+================18=======================
+
+marks=int(input("enter the number:"))
+attendence=int(input("Enter the entrance score:"))
+course_fee=float(input("Enter the number:"))
+
+if marks>75 and attendence>75:
+    performance= "Excellent"
+    scholarship= 20
+elif marks>60 and attendence>75:
+    performance="Good"
+    scholarship= 10
+elif marks>40 and attendence>60:
+    performance="Pass"
+    scholarship=0
+else:
+    print("Need Improvement")
+
+discount=  (course_fee*scholarship/100)
+final_fee= course_fee- discount
+print("performance:",performance)
+print("scholarship:" , str(scholarship) + "%")
+print("final fee:" , final_fee)
+
+
+
+====================19====================
+
+num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+# operator = input("Enter operator: ")
+
+# if operator == "+":
+#     print("Result:", num1 + num2)
+
+# elif operator == "-":
+#     print("Result:", num1 - num2)
+
+# elif operator == "*":
+#     print("Result:", num1 * num2)
+
+# elif operator == "/":
+#     if num2 == 0:
+#         print("Division by Zero")
+#     else:
+#         print("Result:", num1 / num2)
+
+# elif operator == "%":
+#     if num2 == 0:
+#         print("Division by Zero")
+#     else:
+#         print("Result:", num1 % num2)
+
+# else:
+#     print("Invalid Operat
+
+
+
+
+================20===================
+  num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+# operator = input("Enter operator: ")
+
+# if operator == "+":
+#     print("Result:", num1 + num2)
+
+# elif operator == "-":
+#     print("Result:", num1 - num2)
+
+# elif operator == "*":
+#     print("Result:", num1 * num2)
+
+# elif operator == "/":
+#     if num2 == 0:
+#         print("Division by Zero")
+#     else:
+#         print("Result:", num1 / num2)
+
+# elif operator == "%":
+#     if num2 == 0:
+#         print("Division by Zero")
+#     else:
+#         print("Result:", num1 % num2)
+
+# else:
+#     print("Invalid Operat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
