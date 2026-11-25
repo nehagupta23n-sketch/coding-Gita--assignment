@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    box-sizing: border-box;
+    
+}
+p{
+    font-size: 30px;
+    
+}
+
+.white{
+    margin-left: 150px;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+
+    
+}
+.sudoku{
+    /* border:2px solid red; */
+    background-color: white;
+    width: 33vw;
+    height: 75vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.box-parent{
+    border: 3px solid black;
+    width:400px;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.boxes{
+    border:1px solid black;
+    height: 33.333%;
+    width: 33.333%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.small{
+    border:2px solid black;
+    height: 33.333%;
+    width: 33.333%;  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    background-color: #ABD8B8;
+}
+    </style>
+</head>
+<body>
+    <div class="white">
+      <div class="sudoku">
+        <h1>SUDOKU</h1>
+        <div class="box-parent">
+            <div class="boxes">
+                <div class="small"><p>8</p></div>
+                <div class="small"></div>
+                <div class="small"><p>6</p></div>
+                <div class="small"></div>
+                <div class="small"><p>4</p></div>
+                <div class="small"></div>
+                <div class="small"><p>2</p></div>
+                <div class="small"></div>
+                <div class="small"></div>
+            </div>
+            <div class="boxes green">
+                <div class="small"><p>5</p></div>
+                <div class="small"></div>
+                <div class="small"><p>3</p></div>
+                <div class="small"></div>
+                <div class="small"><p>1</p></div>
+                <div class="small"></div>
+                <div class="small"></div>
+                <div class="small"><p>8</p></div>
+                <div class="small"><p>7</p></div>
+            </div>
+            <div class="boxes">
+                <div class="small"><p></p></div>
+                <div class="small"><p>9</p></div>
+                <div class="small"></div>
+                <div class="small"><p>6</p></div>
+                <div class="small"><p>8</p></div>
+                <div class="small"></div>
+                <div class="small"></div>
+                <div class="small"></div>
+                <div class="small"><p>5</p></div>
+            </div>
+            <div class="boxes green">
+                <div class="small"><p>5</p></div>
+                <div class="small"></div>
+                <div class="small"><p>9</p></div>
+                <div class="small"></div>
+                <div class="small"><p>8</p></div>
+                <div class="small"></div>
+                <div class="small"></div>
+                <div class="small"></div>
+                <div class="small"><p>7</p></div>
+            </div>
+            <div class="boxes">
+                <div class="small"></div>
+                <div class="small"><p>4</p></div>
+                <div class="small"></div>
+                <div class="small"><p>6</p></div>
+                <div class="small"></div>
+                <div class="small"></div>
+                <div class="small"><p>7</p></div>
+                <div class="small"></div>
+                <div class="small"><p>4</p></div>
+            </div>
+            <div class="boxes green">
+                <div class="small"><p>8</p></div>
+                <div class="small"></div>
+                <div class="small"><p>6</p></div>
+                <div class="small"></div>
+                <div class="small"><p>4</p></div>
+                <div class="small"></div>
+                <div class="small"><p>3</p></div>
+                <div class="small"><p>4</p></div>
+                <div class="small"></div>
+            </div>
+            <div class="boxes">
+                 <div class="small"><p>4</p></div>
+                 <div class="small"></div>
+                 <div class="small"></div>
+                 <div class="small"><p>5</p></div>
+                 <div class="small"></div>
+                 <div class="small"><p>4</p></div>
+                 <div class="small"></div>
+                 <div class="small"><p>5</p></div>
+                 <div class="small"></div>
+            </div>
+            <div class="boxes green">
+                <div class="small"><p>5</p></div>
+                <div class="small"></div>
+                <div class="small"></div>
+                <div class="small"><p>5</p></div>
+                <div class="small"></div>
+                <div class="small"></div>
+                <div class="small"><p>5</p></div>
+                <div class="small"></div>
+                <div class="small"><p>6</p></div>
+            </div>
+            <div class="boxes">
+                <div class="small"><p>5</p></div>
+                <div class="small"></div>
+                <div class="small"><p>4</p></div>
+                <div class="small"></div>
+                <div class="small"><p>2</p></div>
+                <div class="small"><p>3</p></div>
+                <div class="small"></div>
+                <div class="small"><p>2</p></div>
+                <div class="small"></div>
+            </div>
+
+        </div>
+      </div>
+
+          <div class="sudoku">
+        <h1>ANSWER</h1>
+        <div class="box-parent">
+            <div class="boxes">
+                <div class="small"><p>8</p></div>
+                <div class="small"><p>8</p></div>
+                <div class="small"><p>8</p></div>
+                <div class="small"><p>8</p></div>
+                <div class="small"><p>8</p></div>
+                <div class="small"><p>8</p></div>
+                <div class="small"><p>8</p></div>
+                <div class="small"><p>8</p></div>
+                <div class="small"><p>8</p></div>
+            </div>
+            <div class="boxes green">
+                <div class="small"><p>5</p></div>
+                <div class="small"><p>5</p></div>
+                <div class="small"><p>5</p></div>
+                <div class="small"><p>5</p></div>
+                <div class="small"><p>5</p></div>
+                <div class="small"><p>5</p></div>
+                <div class="small"><p>5</p></div>
+                <div class="small"><p>5</p></div>
+                <div class="small"><p>5</p></div>
+            </div>
+            <div class="boxes">
+                <div class="small"><p>3</p></div>
+                <div class="small"><p>3</p></div>
+                <div class="small"><p>3</p></div>
+                <div class="small"><p>3</p></div>
+                <div class="small"><p>3</p></div>
+                <div class="small"><p>3</p></div>
+                <div class="small"><p>3</p></div>
+                <div class="small"><p>3</p></div>
+                <div class="small"><p>3</p></div>
+            </div>
+            <div class="boxes green">
+                <div class="small"><p>4</p></div>
+                <div class="small"><p>4</p></div>
+                <div class="small"><p>4</p></div>
+                <div class="small"><p>4</p></div>
+                <div class="small"><p>4</p></div>
+                <div class="small"><p>4</p></div>
+                <div class="small"><p>4</p></div>
+                <div class="small"><p>4</p></div>
+                <div class="small"><p>4</p></div>
+            </div>
+            <div class="boxes">
+                <div class="small"><p>9</p></div>
+                <div class="small"><p>9</p></div>
+                <div class="small"><p>9</p></div>
+                <div class="small"><p>9</p></div>
+                <div class="small"><p>9</p></div>
+                <div class="small"><p>9</p></div>
+                <div class="small"><p>9</p></div>
+                <div class="small"><p>9</p></div>
+                <div class="small"><p>9</p></div>
+            </div>
+            <div class="boxes green">
+                <div class="small"><p>6</p></div>
+                <div class="small"><p>6</p></div>
+                <div class="small"><p>6</p></div>
+                <div class="small"><p>6</p></div>
+                <div class="small"><p>6</p></div>
+                <div class="small"><p>6</p></div>
+                <div class="small"><p>6</p></div>
+                <div class="small"><p>6</p></div>
+                <div class="small"><p>6</p></div>
+            </div>
+            <div class="boxes">
+                 <div class="small"><p>4</p></div>
+                 <div class="small"><p>4</p></div>
+                 <div class="small"><p>4</p></div>
+                 <div class="small"><p>4</p></div>
+                 <div class="small"><p>4</p></div>
+                 <div class="small"><p>4</p></div>
+                 <div class="small"><p>4</p></div>
+                 <div class="small"><p>4</p></div>
+                 <div class="small"><p>4</p></div>
+            </div>
+            <div class="boxes green">
+                <div class="small"><p>9</p></div>
+                <div class="small"><p>8</p></div>
+                <div class="small"><p>7</p></div>
+                <div class="small"><p>3</p></div>
+                <div class="small"><p>2</p></div>
+                <div class="small"><p>1</p> </div>
+                <div class="small"><p>6</p></div>
+                <div class="small"><p>5</p></div>
+                <div class="small"><p>4</p></div>
+            </div>
+            <div class="boxes">
+                <div class="small"><p>5</p></div>
+                <div class="small"><p>4</p></div>
+                <div class="small"><p>6</p></div>
+                <div class="small"><p>8</p></div>
+                <div class="small"><p>7</p></div>
+                <div class="small"><p>9</p></div>
+                <div class="small"><p>2</p></div>
+                <div class="small"><p>1</p></div>
+                <div class="small"><p>3</p></div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+    
+</body>
+</html>
