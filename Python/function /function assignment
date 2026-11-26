@@ -1,0 +1,179 @@
+<!-- Write Programs Using Functions
+# Create a function named greet() that prints a welcome message.
+# Create a function named square() that accepts a number and prints its square.
+# Create a function named cube() that accepts a number and returns its cube.
+# Create a function named add() that accepts two numbers and returns their sum.
+# Create a function named find_largest() that accepts two numbers and returns the larger number.
+# Create a function named is_even() that accepts a number and returns True if it is even; otherwise, return False.
+# Create a function named calculate_area() that accepts the length and breadth of a rectangle and returns its area.
+# Create a function named calculate_bill() that accepts price and quantity and returns the total bill.
+# Create a function named convert_temperature() that accepts Celsius and returns Fahrenheit. Use the formula: F = (C * 9 / 5) + 32.
+# Create a function named calculate_average() that accepts three numbers and returns their average.
+# E. Real-Life Problem Solving
+# Student Result: Create a function that accepts marks in three subjects and returns the total marks.
+# Shopping Bill: Create a function that accepts item price and quantity. Return the total amount.
+# Movie Ticket: Create a function that accepts ticket price and number of tickets. Return the total cost.
+# Electricity Bill: Create a function that accepts units consumed and rate per unit. Return the bill amount.
+# Travel Cost: Create a function that accepts distance and cost per kilometre. Return the total travel cost. -->
+
+# ===========1=============
+def greet():
+    print("welcome")
+greet()
+
+
+# =============2===============
+def square():
+    num=3
+    square=num**2
+    print(square)
+square()
+
+
+# ===============3==========
+def cube():
+    num=2
+    cube=num**3
+    print(cube)
+cube()
+
+# ================4=================
+def add():
+    num1=2
+    num2=3
+    sum=num1+num2
+    print(sum)
+add()
+
+# ===================5===================
+def find_largest():
+    num1=9
+    num2=8
+    num1>num2
+    print(find_largest)
+find_largest()
+# =================6==============
+
+
+def is_even():
+    num=24
+    is_even=num%2==0
+    print(is_even)
+is_even()
+
+
+# ===============7=================
+def calculate_area():
+    width=78
+    length=65
+    recetangle_of_area=width*length
+    print(recetangle_of_area)
+calculate_area()
+
+
+# ===================8=====================
+def calculate_bill():
+    price=56
+    quantity=6
+    total_bill=price*quantity
+    print(total_bill)
+calculate_bill()
+# ==================9===================
+def convert_temperature():
+    C=30
+    F = (C * 9 / 5) + 32.
+    print(F)
+convert_temperature()
+
+# ==================10===============
+def calculate_average():
+    a=10
+    b=20
+    c=30
+    sum=a+b+c
+    print(sum)
+calculate_average()
+
+
+
+# =====================11============
+
+def total_mark():
+    physics=98
+    math=95
+    chemistry=94
+    print()
+total_mark()
+
+
+# ==================12===============
+
+def Movie_ticket():
+    ticket_price=200
+    number_of_ticket=6
+    toll_price=ticket_price*number_of_ticket
+    print()
+Movie_ticket()
+
+
+
+
+# ======================13============
+def electricity_bill():
+    unit=50
+    price=5
+    per_unit_rate=unit*price
+    print(per_unit_rate)
+electricity_bill()
+
+# =====================14==============
+
+
+def Travel_cost():
+    distance=200
+    cost_per_kilometer=40
+    total_distance=distance*cost_per_kilometer
+    print(total_distance)
+Travel_cost()
+
+
+# =============15=============
+def Shopping_bill():
+    price=200
+    quantity=4
+    total=price*quantity
+    print(total)
+Shopping_bill()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
